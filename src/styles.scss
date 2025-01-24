@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFCF3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+$my-background: #FFFCF3;
+$my-green: #00BC8F;
+$my-black: #000000;
+$my-blue: #4B47FF;
+$my-orange: #FF9900;
