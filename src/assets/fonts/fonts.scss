@@ -3,15 +3,7 @@
     font-family: 'Overpass';
     font-style: normal;
     font-weight: 300;
-    src: url('/Portfolio/src/assets/fonts/overpass-v16-latin-300italic.woff2') format('woff2');
-}
-
-@font-face {
-    font-display: swap;
-    font-family: 'Overpass';
-    font-style: normal;
-    font-weight: 400;
-    src: url('/Portfolio/src/assets/fonts/overpass-v16-latin-regular.woff2') format('woff2');
+    src: url('../fonts/overpass-v16-latin-300.woff2') format('woff2');
 }
 
 @font-face {
@@ -19,7 +11,7 @@
     font-family: 'Overpass';
     font-style: normal;
     font-weight: 500;
-    src: url('/Portfolio/src/assets/fonts/overpass-v16-latin-500.woff2') format('woff2');
+    src: url('../fonts/overpass-v16-latin-500.woff2') format('woff2');
 }
 
 @font-face {
@@ -27,7 +19,7 @@
     font-family: 'Overpass';
     font-style: normal;
     font-weight: 600;
-    src: url('/Portfolio/src/assets/fonts/overpass-v16-latin-600.woff2') format('woff2');
+    src: url('../fonts/overpass-v16-latin-600.woff2') format('woff2');
 }
 
 @font-face {
@@ -35,7 +27,7 @@
     font-family: 'Overpass';
     font-style: normal;
     font-weight: 700;
-    src: url('/Portfolio/src/assets/fonts/overpass-v16-latin-700.woff2') format('woff2');
+    src: url('../fonts/overpass-v16-latin-700.woff2') format('woff2');
 }
 
 @font-face {
@@ -43,15 +35,7 @@
     font-family: 'Overpass';
     font-style: normal;
     font-weight: 800;
-    src: url('/Portfolio/src/assets/fonts/overpass-v16-latin-800.woff2') format('woff2');
-}
-
-@font-face {
-    font-display: swap;
-    font-family: 'Syne';
-    font-style: normal;
-    font-weight: 400;
-    src: url('/Portfolio/src/assets/fonts/syne-v22-latin-regular.woff2') format('woff2');
+    src: url('../fonts/overpass-v16-latin-800.woff2') format('woff2');
 }
 
 @font-face {
@@ -59,7 +43,7 @@
     font-family: 'Syne';
     font-style: normal;
     font-weight: 500;
-    src: url('/Portfolio/src/assets/fonts/syne-v22-latin-500.woff2') format('woff2');
+    src: url('../fonts/syne-v22-latin-500.woff2') format('woff2');
 }
 
 @font-face {
@@ -67,7 +51,7 @@
     font-family: 'Syne';
     font-style: normal;
     font-weight: 600;
-    src: url('/Portfolio/src/assets/fonts/syne-v22-latin-600.woff2') format('woff2');
+    src: url('../fonts/syne-v22-latin-600.woff2') format('woff2');
 }
 
 @font-face {
@@ -75,7 +59,7 @@
     font-family: 'Syne';
     font-style: normal;
     font-weight: 700;
-    src: url('/Portfolio/src/assets/fonts/syne-v22-latin-700.woff2') format('woff2');
+    src: url('../fonts/syne-v22-latin-700.woff2') format('woff2');
 }
 
 @font-face {
@@ -83,5 +67,5 @@
     font-family: 'Syne';
     font-style: normal;
     font-weight: 800;
-    src: url('/Portfolio/src/assets/fonts/syne-v22-latin-800.woff2') format('woff2');
+    src: url('../fonts/syne-v22-latin-800.woff2') format('woff2');
 }

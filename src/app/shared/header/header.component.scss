@@ -1,1 +1,30 @@
-@import '../../assets/fonts/fonts.scss';
+@import '../../../assets/fonts/fonts.scss';
+
+section{
+    width: 100vw;
+    max-width: 1440px;
+
+    >div{
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+
+    .burger-menu-icon{
+        cursor: pointer;
+        width: 40px;
+        height: 32px;
+    }
+
+    .my-logo{
+        cursor: pointer;
+        width: 80px;
+        height: 80px;
+    }
+}
+}

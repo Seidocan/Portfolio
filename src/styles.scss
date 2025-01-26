@@ -1,18 +1,19 @@
+$bg-color: #FFFCF3;
+$accent-green: #00BC8F;
+$black: #000000;
+$accent-blue: #4B47FF;
+$accent-orange: #FF9900;
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
-    background-color: #FFFCF3;
+    background-color: $bg-color;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-$my-background: #FFFCF3;
-$my-green: #00BC8F;
-$my-black: #000000;
-$my-blue: #4B47FF;
-$my-orange: #FF9900;

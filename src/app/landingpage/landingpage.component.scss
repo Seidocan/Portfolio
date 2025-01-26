@@ -1,1 +1,115 @@
 @import '../../assets/fonts/fonts.scss';
+@import '../../styles.scss';
+
+section {
+    width: 100vw;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    margin-top: 204px;
+
+    .landing-main-div {
+        width: 1240px;
+        height: 661px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+}
+
+.landing-title-div {
+    width: 1019px;
+    height: 661px;
+    font-family: Overpass;
+    color: $accent-green;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.025em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    >div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 15px;
+    }
+
+    >p {
+        font-family: Syne;
+        color: black;
+        font-size: 128px;
+        font-weight: 800;
+        line-height: 128px;
+        letter-spacing: -0.025em;
+        text-align: center;
+    }
+}
+
+.landing-email-div {
+    height: 661px;
+    width: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    >a {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        text-decoration: none;
+        color: black;
+        font-family: Overpass;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 22px;
+        letter-spacing: -0.025em;
+    }
+}
+
+.landing-arrow-div {
+    width: 116px;
+    height: 661px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+
+    >div{
+        width: 116px;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .arrow{
+        animation: arrow-slide-down 2s infinite;
+    }
+
+    >p {
+        font-family: Overpass;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 22px;
+        letter-spacing: -0.025em;
+    }
+
+    @keyframes arrow-slide-down {
+        0% {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+        30% {
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+}
