@@ -4,23 +4,11 @@
 section {
     width: 100vw;
     max-width: 1440px;
-    display: flex;
-    justify-content: center;
-    margin-top: 204px;
-
-    .landing-main-div {
-        width: 1240px;
-        height: 661px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: row;
-    }
+    position: relative;
 }
 
 .landing-title-div {
-    width: 1019px;
-    height: 661px;
+    width: 1240px;
     font-family: Overpass;
     color: $accent-green;
     font-size: 48px;
@@ -30,14 +18,9 @@ section {
     display: flex;
     align-items: center;
     flex-direction: column;
-
-    >div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        margin-top: 15px;
-    }
+    position: absolute;
+    top: 204px;
+    left: 100px;
 
     >p {
         font-family: Syne;
@@ -50,12 +33,29 @@ section {
     }
 }
 
+.line-name-div {
+    width: 1019px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Overpass;
+    font-size: 48px;
+    font-weight: 700;
+    color: #00BC8F;
+    position: absolute;
+    top: 472px;
+    left: 211px;
+}
+
 .landing-email-div {
-    height: 661px;
-    width: 27px;
+    height: 27px;
     display: flex;
     justify-content: center;
     align-items: end;
+    position: absolute;
+    top: 765px;
+    left: 100px;
 
     >a {
         writing-mode: vertical-lr;
@@ -72,22 +72,24 @@ section {
 
 .landing-arrow-div {
     width: 116px;
-    height: 661px;
+    gap: 6px;
     display: flex;
     justify-content: end;
     align-items: center;
     flex-direction: column;
     cursor: pointer;
+    position: absolute;
+    top: 533px;
+    left: 1224px;
 
-    >div{
+    >div {
         width: 116px;
-        height: 180px;
         display: flex;
         justify-content: center;
         overflow: hidden;
     }
 
-    .arrow{
+    .arrow {
         animation: arrow-slide-down 2s infinite;
     }
 
@@ -95,7 +97,6 @@ section {
         font-family: Overpass;
         font-size: 22px;
         font-weight: 300;
-        line-height: 22px;
         letter-spacing: -0.025em;
     }
 
@@ -104,9 +105,11 @@ section {
             transform: translateY(-100%);
             opacity: 0;
         }
+
         30% {
             opacity: 1;
         }
+
         100% {
             transform: translateY(0);
             opacity: 1;
