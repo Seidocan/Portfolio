@@ -82,9 +82,10 @@ section {
         position: absolute;
         top: 1393px;
         left: 303px;
+        transition: scale 100ms ease-in-out;
 
         &:hover {
-            width: 240px;
+            transform: scalex(1.1);
         }
     }
 

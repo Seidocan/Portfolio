@@ -1,1 +1,126 @@
 @import '../../assets/fonts/fonts.scss';
+@import '../../styles.scss';
+
+section {
+    position: relative;
+
+    .main-frame-div {
+        width: 1240px;
+        height: 633px;
+        border: 4px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 1993px;
+        left: 100px;
+
+        .ready-to-learn-div {
+            width: 787px;
+            height: 75px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: end;
+            font-family: Overpass;
+            font-size: 22px;
+            font-weight: 400;
+            position: absolute;
+            top: 439px;
+            left: 227px;
+
+            .learn-content-div {
+                width: 671px;
+                height: 39px;
+                gap: 3px;
+
+                >a {
+                    text-decoration: none;
+                    color: #00BC8F;
+                    transition: scale 100ms ease-in-out;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+
+    .my-skills-headline {
+        width: 536px;
+        height: 98px;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFCF3;
+        padding: 10px 0px 0px 0px;
+        font-family: Syne;
+        font-size: 78px;
+        font-weight: 800;
+        position: absolute;
+        top: 1939px;
+        left: 440px;
+    }
+
+    .skills-main-div {
+        width: 1012px;
+        height: 271px;
+        gap: 78px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 120px;
+        left: 114px;
+
+        .skills-first-row,
+        .skills-second-row {
+            width: 1012px;
+            height: 104px;
+            gap: 128px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .icon-div {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+
+                &:hover{
+                    color: #00BC8F;
+                }
+
+                >img{
+                    transition: transform 0.5s ease-in-out;
+
+                    &:hover{
+                        transform: rotateY(360deg);
+                    }
+                }
+
+                >p {
+                    font-family: Overpass;
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+        .arrow-div {
+            width: 1239px;
+            height: 300px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            position: absolute;
+            top: 2648px;
+            left: 101px;
+        }
+}
