@@ -62,6 +62,11 @@ section {
         position: absolute;
         top: 1939px;
         left: 440px;
+        cursor: default;
+
+        &:hover{
+            color: #00BC8F;
+        }
     }
 
     .skills-main-div {
