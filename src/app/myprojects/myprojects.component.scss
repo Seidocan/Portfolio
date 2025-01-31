@@ -48,12 +48,16 @@ section {
         padding-top: 10px;
         padding-bottom: 10px;
         gap: 10px;
+        mix-blend-mode: luminosity;
+
+        &:hover{
+            mix-blend-mode: unset;
+        }
     }
 
-    .project-number-div {
+    .project-one-number-div {
         display: flex;
         justify-content: right;
-        
         width: 311px;
         height: 84px;
         font-family: Syne;
@@ -63,4 +67,79 @@ section {
         top: 3231px;
         left: 1030px;
     }
+
+    .project-two-div {
+        width: 1239px;
+        height: 460px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        position: absolute;
+        top: 3761px;
+        left: 99px;
+    }
+
+    .elPoloLoco-img {
+        width: 620px;
+        height: 393px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        gap: 10px;
+        mix-blend-mode: luminosity;
+
+        &:hover{
+            mix-blend-mode: unset;
+        }
+    }
+
+    .project-two-number-div {
+        display: flex;
+        justify-content: left;
+        width: 311px;
+        height: 84px;
+        font-family: Syne;
+        font-size: 48px;
+        font-weight: 700;
+        position: absolute;
+        top: 3761px;
+        left: 102px;
+    }
+
+    .project-three-div {
+        width: 1239px;
+        height: 460px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        position: absolute;
+        top: 4291px;
+        left: 99px;
+    }
+
+    .pokedex-img {
+        width: 620px;
+        height: 393px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        gap: 10px;
+        mix-blend-mode: luminosity;
+
+        &:hover{
+            mix-blend-mode: unset;
+        }
+    }
+
+    .project-three-number-div {
+        display: flex;
+        justify-content: right;
+        width: 311px;
+        height: 84px;
+        font-family: Syne;
+        font-size: 48px;
+        font-weight: 700;
+        position: absolute;
+        top: 4291px;
+        left: 1030px;
+    }
+
 }
