@@ -1,1 +1,54 @@
 @import '../../assets/fonts/fonts.scss';
+
+section {
+    position: relative;
+
+    .polygon-div {
+        width: 1440px;
+        height: 1061px;
+        background: black;
+        clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+        position: absolute;
+        top: 5750px;
+    }
+}
+
+.contact-headline {
+    font-family: Syne;
+    font-size: 78px;
+    font-weight: 800;
+    color: #FFFCF3;
+    position: absolute;
+    top: 5950px;
+    left: 104px;
+}
+
+.paragraph-one {
+    font-family: Overpass;
+    font-size: 32px;
+    font-weight: 700;
+    color: #00BC8F;
+    position: absolute;
+    top: 6100px;
+    left: 484px;
+}
+
+.paragraph-two {
+    font-family: Overpass;
+    font-size: 22px;
+    font-weight: 400;
+    color: #FFFCF3;
+    position: absolute;
+    top: 6160px;
+    left: 440px;
+}
+
+.contact-form-div{
+    width: 617px;
+    height: 490px;
+    border: 1px solid #FFFCF3;
+    color: #FFFCF3;
+    position: absolute;
+    top: 6200px;
+    left: 415px;
+}
