@@ -5,7 +5,7 @@ section {
 
     .polygon-div {
         width: 1440px;
-        height: 1061px;
+        height: 1100px;
         background: black;
         clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
         position: absolute;
@@ -43,7 +43,7 @@ section {
     left: 440px;
 }
 
-.contact-form-div{
+.contact-form-div {
     width: 617px;
     height: 490px;
     border: 1px solid #FFFCF3;
@@ -51,4 +51,55 @@ section {
     position: absolute;
     top: 6200px;
     left: 415px;
+}
+
+.arrow-up-footer {
+    width: 53.85px;
+    height: 76.04px;
+    position: absolute;
+    top: 6600px;
+    left: 1292px;
+    transition: 300ms ease-out;
+    transform-origin: bottom;
+
+    &:hover {
+        transform: scaley(1.5);
+        cursor: pointer;
+    }
+}
+
+.footer-small-div {
+    width: 1240px;
+    height: 100px;
+    position: absolute;
+    top: 6720px;
+    left: 100px;
+
+    .social-icons-div {
+        width: 204px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        top: 25px;
+        left: 1036px;
+    }
+
+    .mylogo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .copyright {
+        font-family: Overpass;
+        font-size: 22px;
+        font-weight: 400;
+        color: #FFFCF3;
+        position: absolute;
+        top: 75px;
+        left: -4px;
+
+    }
 }

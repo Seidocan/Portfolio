@@ -13,6 +13,11 @@ section {
         position: absolute;
         top: 4950px;
         left: 356px;
+        cursor: default;
+
+        &:hover {
+            color: #00BC8F;
+        }
     }
 
     .references-description {
