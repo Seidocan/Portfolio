@@ -4,7 +4,9 @@
 section {
     width: 100vw;
     max-width: 1440px;
+    background-color: $bg-color;
     position: fixed;
+    z-index: 999;
 
     >div {
         display: flex;

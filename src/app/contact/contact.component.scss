@@ -87,11 +87,20 @@ section {
         position: absolute;
         top: 25px;
         left: 1036px;
+
+        .social-icon {
+            transition: transform 0.3s ease-out;
+        
+            &:hover {
+                transform: translateY(-10px);
+            }
+        }
     }
 
     .mylogo {
         width: 70px;
         height: 70px;
+        padding-bottom: 10px;
     }
 
     .copyright {
