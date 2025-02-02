@@ -3,7 +3,6 @@
 
 section {
     position: relative;
-    background-color: $bg-color;
 
     .references-headline {
         width: 731px;
@@ -18,7 +17,7 @@ section {
         cursor: default;
 
         &:hover {
-            color: #00BC8F;
+            color: $accent-green;
         }
     }
 
@@ -63,10 +62,10 @@ section {
         height: 344px;
         padding: 24px 16px 24px 16px;
         gap: 24px;
-        border: 4px solid black;
+        border: 4px solid $black;
 
         &:hover {
-            border: 4px solid #00BC8F;
+            border: 4px solid $accent-green;
         }
 
         &:hover .quote-div {
@@ -82,10 +81,10 @@ section {
         height: 344px;
         padding: 24px 16px 24px 16px;
         gap: 24px;
-        border: 4px solid black;
+        border: 4px solid $black;
 
         &:hover {
-            border: 4px solid #00BC8F;
+            border: 4px solid $accent-green;
         }
 
         &:hover .quote-div {
@@ -101,10 +100,10 @@ section {
         height: 344px;
         padding: 24px 16px 24px 16px;
         gap: 24px;
-        border: 4px solid black;
+        border: 4px solid $black;
 
         &:hover {
-            border: 4px solid #00BC8F;
+            border: 4px solid $accent-green;
         }
 
         &:hover .quote-div {

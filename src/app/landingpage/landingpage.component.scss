@@ -5,7 +5,6 @@ section {
     width: 100vw;
     max-width: 1440px;
     position: relative;
-    background-color: $bg-color;
 }
 
 .landing-title-div {
@@ -24,7 +23,7 @@ section {
 
     >p {
         font-family: Syne;
-        color: black;
+        color: $black;
         font-size: 128px;
         font-weight: 800;
         line-height: 128px;
@@ -61,7 +60,7 @@ section {
         writing-mode: vertical-lr;
         transform: rotate(180deg);
         text-decoration: none;
-        color: black;
+        color: $black;
         font-family: Overpass;
         font-weight: 300;
         font-size: 22px;

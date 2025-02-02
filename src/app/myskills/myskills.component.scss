@@ -3,12 +3,11 @@
 
 section {
     position: relative;
-    background-color: $bg-color;
 
     .main-frame-div {
         width: 1240px;
         height: 633px;
-        border: 4px solid black;
+        border: 4px solid $black;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -45,7 +44,7 @@ section {
 
                 >a {
                     text-decoration: none;
-                    color: #00BC8F;
+                    color: $accent-green;
                     transition: scale 100ms ease-in-out;
 
                     &:hover {
@@ -63,7 +62,7 @@ section {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #FFFCF3;
+        background-color: $bg-color;
         padding: 10px 0px 0px 0px;
         font-family: Syne;
         font-size: 78px;
@@ -74,7 +73,7 @@ section {
         cursor: default;
 
         &:hover{
-            color: #00BC8F;
+            color: $accent-green;
         }
     }
 
@@ -107,7 +106,7 @@ section {
                 gap: 10px;
 
                 &:hover{
-                    color: #00BC8F;
+                    color: $accent-green;
                 }
 
                 >img{

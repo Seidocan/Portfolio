@@ -3,7 +3,6 @@
 
 section {
     position: relative;
-    background-color: $bg-color;
 
     .myprojects-headline {
         font-family: Syne;
@@ -15,7 +14,7 @@ section {
         cursor: default;
 
         &:hover {
-            color: #00BC8F;
+            color: $accent-green;
         }
     }
 
