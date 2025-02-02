@@ -1,7 +1,9 @@
 @import '../../assets/fonts/fonts.scss';
+@import '../../styles.scss';
 
 section {
     position: relative;
+    background-color: $bg-color;
 
     .polygon-div {
         width: 1440px;
