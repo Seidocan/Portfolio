@@ -48,11 +48,106 @@ section {
 .contact-form-div {
     width: 617px;
     height: 490px;
-    border: 1px solid $bg-color;
     color: $bg-color;
     position: absolute;
     top: 6200px;
     left: 415px;
+
+    .warn-msg{
+        font-family: Overpass;
+        font-size: 22px;
+        font-weight: 400;
+        color: $accent-green;
+    }
+
+    input::placeholder {
+        font-family: Overpass;
+        font-size: 16px;
+        font-weight: 400;
+        color: $bg-color;
+    }
+
+    input:focus{
+        outline: none;
+    }
+
+    textarea::placeholder {
+        font-family: Overpass;
+        font-size: 16px;
+        font-weight: 400;
+        color: $bg-color;
+    }
+
+    textarea:focus{
+        outline: none;
+    }
+
+    .name-input {
+        width: 617px;
+        height: 50px;
+        background-color: $black;
+        border-top: 0;
+        border: unset;
+        border-bottom: 2px solid $bg-color;
+        padding: 15px 25px 15px 25px;
+        gap: 10px;
+        font-family: Overpass;
+        font-size: 16px;
+        font-weight: 400;
+        color: $bg-color;
+
+    }
+
+    .mail-input {
+        width: 617px;
+        height: 50px;
+        background-color: $black;
+        border: unset;
+        border-bottom: 2px solid $bg-color;
+        padding: 15px 25px 15px 25px;
+        gap: 10px;
+        font-family: Overpass;
+        font-size: 16px;
+        font-weight: 400;
+        color: $bg-color;
+    }
+
+    .message-input {
+        width: 617px;
+        height: 202px;
+        resize: none;
+        background-color: $black;
+        border: unset;
+        border-bottom: 2px solid $bg-color;
+        padding: 15px 25px 15px 25px;
+        gap: 10px;
+        font-family: Overpass;
+        font-size: 16px;
+        font-weight: 400;
+        color: $bg-color;
+    }
+
+    .send-button {
+        width: 269px;
+        height: 68px;
+        font-family: Overpass;
+        font-size: 23px;
+        font-weight: 400;
+        color: #BBBBBB;
+        background-color: $black;
+        padding: 20px 60px 20px 60px;
+        gap: 10px;
+        border: 4px solid #BBBBBB;
+        box-shadow: 5px 5px 15px 0px #00000026;
+        cursor: pointer;
+    }
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
 .arrow-up-footer {
@@ -90,7 +185,7 @@ section {
 
         .social-icon {
             transition: transform 0.3s ease-out;
-        
+
             &:hover {
                 transform: translateY(-10px);
             }
