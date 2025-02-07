@@ -23,6 +23,11 @@ section {
     position: absolute;
     top: 5950px;
     left: 104px;
+    cursor: default;
+
+    &:hover{
+        color: $accent-green;
+    }
 }
 
 .paragraph-one {
@@ -53,7 +58,7 @@ section {
     top: 6200px;
     left: 415px;
 
-    .warn-msg{
+    .warn-msg {
         font-family: Overpass;
         font-size: 22px;
         font-weight: 400;
@@ -67,7 +72,7 @@ section {
         color: $bg-color;
     }
 
-    input:focus{
+    input:focus {
         outline: none;
     }
 
@@ -78,7 +83,7 @@ section {
         color: $bg-color;
     }
 
-    textarea:focus{
+    textarea:focus {
         outline: none;
     }
 
@@ -96,6 +101,11 @@ section {
         font-weight: 400;
         color: $bg-color;
 
+        &:hover {
+            border: 2px solid $bg-color;
+            cursor: pointer;
+        }
+
     }
 
     .mail-input {
@@ -110,6 +120,11 @@ section {
         font-size: 16px;
         font-weight: 400;
         color: $bg-color;
+
+        &:hover {
+            border: 2px solid $bg-color;
+            cursor: pointer;
+        }
     }
 
     .message-input {
@@ -125,6 +140,43 @@ section {
         font-size: 16px;
         font-weight: 400;
         color: $bg-color;
+
+        &:hover {
+            border: 2px solid $bg-color;
+            cursor: pointer;
+        }
+    }
+
+    .checkbox-div {
+        width: 617px;
+        height: 27px;
+        gap: 4px;
+        display: flex;
+        align-items: center;
+    }
+
+    input[type="checkbox"] {
+        width: 24px;
+        height: 24px;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-color: $black;
+        border: 2px solid $bg-color;
+        cursor: pointer;
+    }
+
+    input[type="checkbox"]:checked {
+        background-color: $accent-green;
+    }
+
+    .privacy-link {
+        font-family: Overpass;
+        font-size: 14px;
+        font-weight: 400;
+        color: $accent-green;
+        text-decoration: none;
+
     }
 
     .send-button {
@@ -143,7 +195,7 @@ section {
     }
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -160,7 +212,7 @@ form{
     transform-origin: bottom;
 
     &:hover {
-        transform: scaley(1.5);
+        transform: scaleY(1.5);
         cursor: pointer;
     }
 }

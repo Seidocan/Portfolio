@@ -2,21 +2,27 @@
     <div class="polygon-div"></div>
     <p class="contact-headline">Say Hi!</p>
     <p class="paragraph-one">Want to discuss a new Project?</p>
-    <p class="paragraph-two">Say hello! Let´s discuss y oure ideas and make it happen</p>
+    <p class="paragraph-two">Say hello! Let´s discuss youre ideas and make it happen</p>
 
     <div class="contact-form-div">
 
         <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
-            
-            <input [(ngModel)]="contactData.name" type="text" name="name" class="name-input" placeholder="Your name" required>
+
+            <input [(ngModel)]="contactData.name" type="text" name="name" class="name-input" placeholder="Your name"
+                required>
 
             <input [(ngModel)]="contactData.email" type="text" name="email" class="mail-input" placeholder="Your email"
                 required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
 
-            <textarea #message="ngModel" minlength="10" [(ngModel)]="contactData.message" name="message" class="message-input" placeholder="Your message" required></textarea>
+            <textarea #message="ngModel" minlength="10" [(ngModel)]="contactData.message" name="message"
+                class="message-input" placeholder="Your message" required></textarea>
+            <div class="checkbox-div">
+                <input [(ngModel)]="contactData.privacy"class="checkbox" type="checkbox" name="privacy" id="checkbox"> Iv'e read the <a class="privacy-link"
+                    href="#">privacy policy</a> and agree to the processing of my data as outlined.
+            </div>
             <input class="send-button" type="submit" value="Send message">
             @if (!message.valid && message.touched){
-                <span class="warn-msg">Pleace enter a message..</span>
+            <span class="warn-msg">Pleace enter a message.. (minimum length 10 characters)</span>
             }
         </form>
 
