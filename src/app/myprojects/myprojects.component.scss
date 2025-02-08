@@ -42,7 +42,7 @@ section {
         left: 99px;
         mix-blend-mode: luminosity;
 
-        >.project-one-frame {
+        .project-one-frame {
             width: 620px;
             height: 383px;
             opacity: 0;
@@ -50,12 +50,85 @@ section {
             top: 50px;
             left: 20px;
             border: 4px solid black;
+            transition: transform 0.5s ease-in;
 
-            .project-description{
+            .join-slider {
+                width: 479px;
+                height: 339px;
+                gap: 35px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                top: 40px;
+                left: 110px;
                 opacity: 0;
-                width: 300px;
-                height: 300px;
-                border: 1px solid red;
+                animation: join-slide 2s ease-in forwards;
+
+                .Join-description-div {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                }
+
+                .join-headline {
+                    font-family: Syne;
+                    font-size: 45px;
+                    font-weight: 800;
+                    color: $black;
+                }
+
+                .join-skills {
+                    font-family: Overpass;
+                    font-size: 23px;
+                    font-weight: 400;
+                    color: $accent-green;
+                }
+
+                .join-txt {
+                    font-family: Overpass;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: $black;
+                }
+
+                .git-button {
+                    width: 189px;
+                    height: 68px;
+                    position: absolute;
+                    top: 269px;
+                    left: 0px;
+                    padding: 20px 60px 20px 60px;
+                    gap: 10px;
+                    border: 4px solid $black;
+                    box-shadow: 5px 5px 15px 0px #00000026;
+                    font-family: Overpass;
+                    font-size: 23px;
+                    font-weight: 400;
+                    color: $black;
+                    cursor: pointer;
+                }
+            }
+
+            @keyframes join-slide {
+                0% {
+                    transform: translateX(0px);
+                    opacity: 0;
+                }
+
+                50% {
+                    transform: translateX(600px);
+                    opacity: 0.25;
+                }
+
+                75% {
+                    transform: translateX(610px);
+                    opacity: 0.5;
+                }
+
+                100% {
+                    transform: translateX(620px);
+                    opacity: 1;
+                }
             }
 
             &:hover {
@@ -67,7 +140,9 @@ section {
                         content: url('../../assets/icons/round-up.png');
                     }
                 }
-                .project-description{
+
+                .join-slider {
+                    animation: slide-in 2s ease-in forwards;
                     opacity: 1;
                 }
             }
@@ -120,7 +195,7 @@ section {
         left: 99px;
         mix-blend-mode: luminosity;
 
-        >.project-two-frame {
+        .project-two-frame {
             width: 620px;
             height: 383px;
             opacity: 0;
@@ -129,11 +204,90 @@ section {
             left: 600px;
             border: 4px solid black;
 
+            .epl-slider {
+                width: 479px;
+                height: 339px;
+                gap: 35px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                top: 40px;
+                left: 110px;
+                opacity: 0;
+                animation: epl-slide 2s ease-in forwards;
+
+                .epl-description-div {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                }
+
+                .epl-headline {
+                    font-family: Syne;
+                    font-size: 45px;
+                    font-weight: 800;
+                    color: $black;
+                }
+
+                .epl-skills {
+                    font-family: Overpass;
+                    font-size: 23px;
+                    font-weight: 400;
+                    color: $accent-green;
+                }
+
+                .epl-txt {
+                    font-family: Overpass;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: $black;
+                }
+
+                .git-button {
+                    width: 189px;
+                    height: 68px;
+                    position: absolute;
+                    top: 269px;
+                    left: 0px;
+                    padding: 20px 60px 20px 60px;
+                    gap: 10px;
+                    border: 4px solid $black;
+                    box-shadow: 5px 5px 15px 0px #00000026;
+                    font-family: Overpass;
+                    font-size: 23px;
+                    font-weight: 400;
+                    color: $black;
+                    cursor: pointer;
+                }
+
+                @keyframes epl-slide {
+                    0% {
+                        transform: translateX(0px);
+                        opacity: 0;
+                    }
+    
+                    50% {
+                        transform: translateX(-600px);
+                        opacity: 0.25;
+                    }
+    
+                    75% {
+                        transform: translateX(-610px);
+                        opacity: 0.5;
+                    }
+    
+                    100% {
+                        transform: translateX(-620px);
+                        opacity: 1;
+                    }
+                }
+            }
+
             &:hover {
                 .round-down {
                     transform: rotate(270deg);
                     transition: transform 300ms ease-in-out;
-        
+
                     img {
                         content: url('../../assets/icons/round-up.png');
                     }
