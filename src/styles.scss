@@ -17,3 +17,27 @@ body {
     align-items: center;
     background-color: $bg-color;
 }
+
+button {
+    width: 220px;
+    height: 68px;
+    background-color: $bg-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 60px 20px 60px;
+    gap: 10px;
+    border: 4px solid $black;
+    font-family: Overpass;
+    font-size: 23px;
+    font-weight: 400;
+    cursor: pointer;
+    position: absolute;
+    top: 269px;
+    left: 0px;
+    transition: scale 100ms ease-in-out;
+
+    &:hover {
+        transform: scalex(1.1);
+    }
+}

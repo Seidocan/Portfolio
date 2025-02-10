@@ -8,6 +8,7 @@ import { MyprojectsComponent } from './myprojects/myprojects.component';
 import { ReferencesComponent } from './references/references.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from "./shared/header/header.component";
+import { MenueComponent } from "./menue/menue.component";
 
 @Component({
   selector: 'app-root',
@@ -21,7 +22,8 @@ import { HeaderComponent } from "./shared/header/header.component";
     MyprojectsComponent,
     ReferencesComponent,
     ContactComponent,
-    HeaderComponent
+    HeaderComponent,
+    MenueComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

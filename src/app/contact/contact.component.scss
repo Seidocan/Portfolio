@@ -11,7 +11,7 @@ section {
         background: $black;
         clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
         position: absolute;
-        top: 5750px;
+        top: 4900px;
     }
 }
 
@@ -21,7 +21,7 @@ section {
     font-weight: 800;
     color: $bg-color;
     position: absolute;
-    top: 5950px;
+    top: 5100px;
     left: 104px;
     cursor: default;
 
@@ -36,7 +36,7 @@ section {
     font-weight: 700;
     color: $accent-green;
     position: absolute;
-    top: 6100px;
+    top: 5250px;
     left: 484px;
 }
 
@@ -46,7 +46,7 @@ section {
     font-weight: 400;
     color: $bg-color;
     position: absolute;
-    top: 6160px;
+    top: 5300px;
     left: 440px;
 }
 
@@ -55,7 +55,7 @@ section {
     height: 490px;
     color: $bg-color;
     position: absolute;
-    top: 6200px;
+    top: 5350px;
     left: 415px;
 
     .warn-msg {
@@ -206,7 +206,7 @@ form {
     width: 53.85px;
     height: 76.04px;
     position: absolute;
-    top: 6600px;
+    top: 5770px;
     left: 1292px;
     transition: 300ms ease-out;
     transform-origin: bottom;
@@ -221,7 +221,7 @@ form {
     width: 1240px;
     height: 100px;
     position: absolute;
-    top: 6720px;
+    top: 5895px;
     left: 100px;
 
     .social-icons-div {
