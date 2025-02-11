@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MenueComponent } from './menue.component';
+import { MenueComponent } from './menu.component';
 
 describe('MenueComponent', () => {
   let component: MenueComponent;

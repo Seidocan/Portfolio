@@ -1,0 +1,97 @@
+@import '../../assets/fonts/fonts.scss';
+@import '../../styles.scss';
+
+section {
+    position: relative;
+    background-color: $bg-color;
+
+    .polygon-div {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $black;
+        clip-path: polygon(0 0, 0% 90%, 120% 100%, 0% 100%);
+    }
+
+    .menu-main-div {
+        width: 580px;
+        height: 579px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 39px;
+        position: absolute;
+        top: 300px;
+        left: 430px;
+
+        .link-div {
+            width: 580px;
+            height: 167px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+
+            &:hover {
+                .about-corner,
+                .skills-corner,
+                .portfolio-corner {
+                    animation: fadeOutCorner 300ms ease-in-out forwards;
+                }
+
+                .about-stripe,
+                .skills-stripe,
+                .portfolio-stripe {
+                    opacity: 1;
+                    animation: slideStripe 300ms ease-out forwards;
+                }
+            }
+
+            > a {
+                text-decoration: none;
+                font-family: Syne;
+                font-weight: 700;
+                font-size: 96px;
+                color: $black;
+            }
+
+            .about-corner,
+            .skills-corner,
+            .portfolio-corner {
+                position: absolute;
+                top: 142px;
+                left: 0px;
+                opacity: 1;
+                transition: opacity 300ms ease-in-out;
+            }
+
+            .about-stripe,
+            .skills-stripe,
+            .portfolio-stripe {
+                position: absolute;
+                top: 87px;
+                left: -100px;
+                opacity: 0;
+            }
+        }
+    }
+}
+
+@keyframes slideStripe {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(400px);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOutCorner {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
