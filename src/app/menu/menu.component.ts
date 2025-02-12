@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MenuFunctionService } from '../services/menu-function.service';
 
 @Component({
   selector: 'app-menu',
@@ -8,9 +9,8 @@ import { Component } from '@angular/core';
   styleUrl: './menu.component.scss'
 })
 export class MenuComponent {
-   menuHidden = true;
+  
+  constructor(public mainservice : MenuFunctionService) { }
 
-   toggleMenu() {
-    this.menuHidden = !this.menuHidden;
- }
+  burgerToggle = this.mainservice.menuHidden;
 }
