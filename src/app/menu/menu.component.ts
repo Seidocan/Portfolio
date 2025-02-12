@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './menu.component.scss'
 })
 export class MenuComponent {
-  
+   menuHidden = true;
+
+   toggleMenu() {
+    this.menuHidden = !this.menuHidden;
+ }
 }
