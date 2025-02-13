@@ -20,7 +20,7 @@ export class ContactComponent {
     privacy: false,
   }
 
-  mailTest = true;
+  mailTest = false;
 
   post = {
     endPoint: 'https://www.marco-marrocu.de/sendMail.php',
