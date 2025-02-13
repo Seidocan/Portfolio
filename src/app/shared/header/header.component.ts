@@ -11,9 +11,20 @@ import { MenuFunctionService } from '../../services/menu-function.service';
 })
 export class HeaderComponent {
 
+  menuStatus = false;
+  currentIcon = '../../../assets/icons/burger_menu.png';
+
     constructor(public mainservice : MenuFunctionService) { }
 
-    toggleMenu(){
+    toggleMenu() {
       this.mainservice.toggleMenu();
-    }
+      this.menuStatus = !this.menuStatus;
+
+      this.currentIcon = '../../../assets/icons/menuMid.png';
+      setTimeout(() => {
+          this.currentIcon = this.menuStatus ? 
+              '../../../assets/icons/menuX.png' : 
+              '../../../assets/icons/burger_menu.png';
+      }, 150);
+  }
 }

@@ -22,6 +22,11 @@ section {
             cursor: pointer;
             width: 40px;
             height: 32px;
+            transition: transform 0.2s ease, opacity 0.2s ease;
+
+            &:active {
+                transform: scale(0.9);
+            }
         }
 
         .my-logo {

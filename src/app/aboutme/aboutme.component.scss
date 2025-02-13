@@ -109,35 +109,10 @@ section {
         top: 1617px;
         left: 101px;
 
-        .arrow-animation-div{
+        .arrow-animation-div {
 
-            &:hover{
-                animation: arrowAnimation 3s ease-in forwards;
-            }
-
-            @keyframes arrowAnimation {
-                0% {
-                    opacity: 1;
-                    transform: translate(0, 0) scale(1);
-                }
-
-                25% {
-                    content: url('../../assets/icons/arrow_down_left_big.png');
-                    opacity: 1;
-                    transform: translate(0, 0) scale(1);
-                }
-                50% {
-                    opacity: 0;
-                }
-                75% {
-                    content: url('../../assets/icons/arrow_down_left.png');
-                    opacity: 1;
-                    transform: translate(-200px, 100px) scale(1);
-                }
-                100% {
-                    opacity: 1;
-                    transform: translate(-200px, 100px) scale(1);
-                }
+            >img {
+                rotate: 45deg;
             }
         }
     }

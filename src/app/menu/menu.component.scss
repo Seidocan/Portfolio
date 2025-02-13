@@ -2,8 +2,12 @@
 @import '../../styles.scss';
 
 section {
-    position: relative;
+    position: fixed; 
     background-color: $bg-color;
+    width: 100vw;
+    max-width: 1440px; 
+    height: 100vh; 
+    z-index: 998; 
 
     .polygon-div {
         height: 100vh;

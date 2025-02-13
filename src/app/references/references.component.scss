@@ -136,7 +136,14 @@ section {
         justify-content: flex-end;
         align-items: center;
         position: absolute;
-        top: 4600px;
+        top: 4550px;
         left: 101px;
+
+        .arrow-animation-div {
+
+            >img {
+                rotate: 45deg;
+            }
+        }
     }
 }

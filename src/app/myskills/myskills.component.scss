@@ -29,10 +29,10 @@ section {
             top: 439px;
             left: 227px;
 
-            >img{
+            >img {
                 transition: transform 0.5s ease-in-out;
 
-                &:hover{
+                &:hover {
                     transform: rotateY(360deg);
                 }
             }
@@ -72,7 +72,7 @@ section {
         left: 440px;
         cursor: default;
 
-        &:hover{
+        &:hover {
             color: $accent-green;
         }
     }
@@ -105,14 +105,14 @@ section {
                 align-items: center;
                 gap: 10px;
 
-                &:hover{
+                &:hover {
                     color: $accent-green;
                 }
 
-                >img{
+                >img {
                     transition: transform 0.5s ease-in-out;
 
-                    &:hover{
+                    &:hover {
                         transform: rotateY(360deg);
                     }
                 }
@@ -126,14 +126,21 @@ section {
         }
     }
 
-        .arrow-div {
-            width: 1239px;
-            height: 300px;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            position: absolute;
-            top: 2648px;
-            left: 101px;
+    .arrow-div {
+        width: 1239px;
+        height: 300px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        top: 2528px;
+        left: 101px;
+
+        .arrow-animation-div {
+
+            >img {
+                rotate: -45deg;
+            }
         }
+    }
 }
