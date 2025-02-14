@@ -45,7 +45,11 @@ section {
                 >a {
                     text-decoration: none;
                     color: $accent-green;
-                    transition: scale 100ms ease-in-out;
+                    padding-top: 5px;
+                    padding-right: 10px;
+                    padding-bottom: 5px;
+                    padding-left: 10px;
+                    transition: transform 100ms ease-out;
 
                     &:hover {
                         transform: scale(1.1);
