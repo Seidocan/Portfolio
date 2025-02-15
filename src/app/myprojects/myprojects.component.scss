@@ -8,6 +8,7 @@ section {
         font-family: Syne;
         font-size: 78px;
         font-weight: 800;
+        letter-spacing: 1%;
         position: absolute;
         top: 2948px;
         left: 451px;
@@ -83,6 +84,7 @@ section {
                     font-family: Syne;
                     font-size: 45px;
                     font-weight: 800;
+                    letter-spacing: 1%;
                     color: $black;
                 }
 
@@ -98,6 +100,17 @@ section {
                     font-size: 16px;
                     font-weight: 400;
                     color: $black;
+                }
+
+                .join-btn-div{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+
+                    .live-btn{
+                        position: absolute;
+                        left: 250px;
+                    }
                 }
             }
 
@@ -203,6 +216,7 @@ section {
                     font-size: 45px;
                     font-weight: 800;
                     color: $black;
+                    
                 }
 
                 .epl-skills {
@@ -219,22 +233,15 @@ section {
                     color: $black;
                 }
 
-                .git-button {
-                    width: 189px;
-                    height: 68px;
-                    position: absolute;
-                    top: 269px;
-                    left: 0px;
-                    padding: 20px 60px 20px 60px;
-                    gap: 10px;
-                    border: 4px solid $black;
-                    box-shadow: 5px 5px 15px 0px #00000026;
-                    font-family: Overpass;
-                    font-size: 23px;
-                    font-weight: 400;
-                    color: $black;
-                    text-decoration: none;
-                    cursor: pointer;
+                .epl-btn-div{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+
+                    .live-btn{
+                        position: absolute;
+                        left: 250px;
+                    }
                 }
             }
 

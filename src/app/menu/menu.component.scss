@@ -2,12 +2,12 @@
 @import '../../styles.scss';
 
 section {
-    position: fixed; 
+    position: fixed;
     background-color: $bg-color;
     width: 100vw;
-    max-width: 1440px; 
-    height: 100vh; 
-    z-index: 998; 
+    max-width: 1440px;
+    height: 100vh;
+    z-index: 998;
 
     .polygon-div {
         height: 100vh;
@@ -40,6 +40,7 @@ section {
             overflow: hidden;
 
             &:hover {
+
                 .about-corner,
                 .skills-corner,
                 .portfolio-corner {
@@ -54,11 +55,12 @@ section {
                 }
             }
 
-            > a {
+            >a {
                 text-decoration: none;
                 font-family: Syne;
                 font-weight: 700;
                 font-size: 96px;
+                letter-spacing: 1%;
                 color: $black;
             }
 
@@ -89,6 +91,7 @@ section {
         transform: translateX(-100px);
         opacity: 0;
     }
+
     100% {
         transform: translateX(400px);
         opacity: 1;
@@ -96,10 +99,15 @@ section {
 }
 
 @keyframes fadeOutCorner {
-    0% { opacity: 1; }
-    100% { opacity: 0; }
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
-.d-none{
+.d-none {
     display: none;
 }
