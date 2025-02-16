@@ -19,9 +19,10 @@ section {
             width: 787px;
             height: 75px;
             display: flex;
-            justify-content: space-between;
             flex-direction: row;
+            justify-content: center;
             align-items: end;
+            gap: 10px;
             font-family: Overpass;
             font-size: 22px;
             font-weight: 400;
@@ -38,8 +39,6 @@ section {
             }
 
             .learn-content-div {
-                width: 671px;
-                height: 39px;
                 gap: 3px;
 
                 >a {
@@ -49,10 +48,28 @@ section {
                     padding-right: 10px;
                     padding-bottom: 5px;
                     padding-left: 10px;
+                    display: inline-block;
+                    position: relative;
                     transition: transform 100ms ease-out;
 
+                    &::after {
+                        content: ''; 
+                        position: absolute;
+                        bottom: 1px;
+                        left: 50%;
+                        width: 0;
+                        height: 2px;
+                        background-color: $accent-green;
+                        transition: width 0.5s ease;
+                    }
+
                     &:hover {
-                        transform: scale(1.1);
+                        transform: scale(1.025);
+            
+                        &::after {
+                            width: 50%;
+                            left: 50%;
+                        }
                     }
                 }
             }
