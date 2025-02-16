@@ -19,12 +19,19 @@ export class HeaderComponent {
     toggleMenu() {
       this.mainservice.toggleMenu();
       this.menuStatus = !this.menuStatus;
-
-      this.currentIcon = '../../../assets/icons/menuMid.png';
+  
+      if (this.menuStatus) {
+        this.currentIcon = '../../../assets/icons/menuMid.png';
+      } else {
+        this.currentIcon = '../../../assets/icons/burger_menu.png';
+      }
+  
       setTimeout(() => {
-          this.currentIcon = this.menuStatus ? 
-              '../../../assets/icons/menuX.png' : 
-              '../../../assets/icons/burger_menu.png';
+        if (this.menuStatus) {
+          this.currentIcon = '../../../assets/icons/menuX.png';
+        } else {
+          this.currentIcon = '../../../assets/icons/burger_menu.png';
+        }
       }, 150);
-  }
+    }
 }

@@ -9,8 +9,13 @@ export class MenuFunctionService {
 
   menuHidden = true;
 
+
   toggleMenu() {
    this.menuHidden = !this.menuHidden;
+}
+
+closeMenu() {
+  this.menuHidden = true;
 }
 
 }

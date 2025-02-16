@@ -26,7 +26,7 @@ section {
     left: 104px;
     cursor: default;
 
-    &:hover{
+    &:hover {
         color: $accent-green;
     }
 }
@@ -252,6 +252,10 @@ form {
     }
 
     .copyright {
+        width: 1240px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         font-family: Overpass;
         font-size: 22px;
         font-weight: 400;
@@ -260,5 +264,12 @@ form {
         top: 75px;
         left: -4px;
 
-    }
+        >a{
+            font-family: Overpass;
+            font-weight: 400;
+            font-size: 16px;
+            text-decoration: none;
+            color: $bg-color;
+        }
+}
 }

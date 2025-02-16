@@ -13,4 +13,9 @@ export class MenuComponent {
   constructor(public mainservice : MenuFunctionService) { }
 
   burgerToggle = this.mainservice.menuHidden;
+
+  closeMenu() {
+    this.mainservice.menuHidden = true;
+    
+  }
 }
