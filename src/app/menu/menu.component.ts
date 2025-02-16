@@ -16,6 +16,5 @@ export class MenuComponent {
 
   closeMenu() {
     this.mainservice.menuHidden = true;
-    
   }
 }

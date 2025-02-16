@@ -10,7 +10,7 @@ section {
 .landing-title-div {
     width: 1240px;
     font-family: Overpass;
-    font-size: 48px;
+    font-size: clamp(2.25rem, 1.5592rem + 3.6842vw, 4.875rem);
     font-weight: 700;
     letter-spacing: 1%;
     display: flex;
@@ -23,7 +23,7 @@ section {
     >p {
         font-family: Syne;
         color: $black;
-        font-size: 128px;
+        font-size: clamp(2.8125rem, 1.4474rem + 7.2807vw, 8rem);
         font-weight: 800;
         line-height: 128px;
         letter-spacing: -0.025em;

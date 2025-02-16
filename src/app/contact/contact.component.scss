@@ -17,7 +17,7 @@ section {
 
 .contact-headline {
     font-family: Syne;
-    font-size: 78px;
+    font-size: clamp(2.25rem, 1.5592rem + 3.6842vw, 4.875rem);
     font-weight: 800;
     letter-spacing: 1%;
     color: $bg-color;
@@ -264,12 +264,39 @@ form {
         top: 75px;
         left: -4px;
 
+        .leagl-notice-link{
+            width: 90px;
+            height: 19px;
+        }
+
         >a{
             font-family: Overpass;
             font-weight: 400;
             font-size: 16px;
             text-decoration: none;
             color: $bg-color;
+            position: relative;
+            transition: transform 100ms ease-out;
+
+            &::after {
+                content: ''; 
+                position: absolute;
+                bottom: 1px;
+                left: 50%;
+                width: 0;
+                height: 2px;
+                background-color: $accent-green;
+                transition: width 0.5s ease;
+            }
+
+            &:hover {
+                transform: scale(1.025);
+    
+                &::after {
+                    width: 50%;
+                    left: 50%;
+                }
+            }
         }
 }
 }

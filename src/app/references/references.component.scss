@@ -9,11 +9,11 @@ section {
         height: 78px;
         gap: 10px;
         font-family: Syne;
-        font-size: 78px;
+        font-size: clamp(2.25rem, 1.5592rem + 3.6842vw, 4.875rem);
         font-weight: 800;
         letter-spacing: 1%;
         position: absolute;
-        top: 4000px;
+        top: 3900px;
         left: 356px;
         cursor: default;
 
@@ -26,10 +26,10 @@ section {
         width: 560px;
         height: 52px;
         font-family: Overpass;
-        font-size: 22px;
+        font-size: clamp(1.25rem, 1.2171rem + 0.1754vw, 1.375rem);
         font-weight: 400;
         position: absolute;
-        top: 4100px;
+        top: 4025px;
         left: 434px;
     }
 
@@ -114,7 +114,7 @@ section {
 
     .reference-name {
         font-family: Syne;
-        font-size: 22px;
+        font-size: clamp(1.25rem, 1.2171rem + 0.1754vw, 1.375rem);
         font-weight: 700;
     }
 
@@ -137,13 +137,12 @@ section {
         justify-content: flex-end;
         align-items: center;
         position: absolute;
-        top: 4550px;
+        top: 4600px;
         left: 101px;
 
         .arrow-animation-div {
 
             >img {
-                rotate: 45deg;
             }
         }
     }
