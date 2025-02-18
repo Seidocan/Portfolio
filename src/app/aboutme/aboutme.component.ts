@@ -10,4 +10,8 @@ import { Component } from '@angular/core';
 
 export class AboutmeComponent {
 
+  onMouseOver() {
+    const arrow = document.getElementById('aboutAnimationDiv');
+    if (arrow) arrow.classList.add('hovered');
+  }
 }

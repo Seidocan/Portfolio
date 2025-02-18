@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
   templateUrl: './references.component.html',
   styleUrl: './references.component.scss'
 })
+
 export class ReferencesComponent {
+
+  onMouseOver() {
+    const arrow = document.getElementById('refAnimationDiv');
+    if (arrow) arrow.classList.add('hovered');
+  }
 
 }

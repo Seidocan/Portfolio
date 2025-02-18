@@ -111,6 +111,18 @@ section {
         left: 101px;
 
         .arrow-animation-div {
+            width: 300px;
+            height: 300px;
+            display: flex;
+            justify-content: end;
+            align-items: flex-start;
+            position: relative;
+            transition: transform 70ms ease;
+            cursor: pointer;
+        }
+
+        .arrow-animation-div.hovered {
+            transform: translate(-80px, 80px);
         }
     }
 }

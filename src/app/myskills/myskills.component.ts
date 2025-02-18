@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
   templateUrl: './myskills.component.html',
   styleUrl: './myskills.component.scss'
 })
+
 export class MyskillsComponent {
 
+  onMouseOver() {
+    const arrow = document.getElementById('skillsAnimationDiv');
+    if (arrow) arrow.classList.add('hovered');
+  }
 }
