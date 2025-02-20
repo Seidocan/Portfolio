@@ -21,7 +21,7 @@
                 Iv'e read the <a class="privacy-link" href="privacy">privacy policy</a> and agree to the processing of my data
                 as outlined.
             </div>
-            <input class="send-button" type="submit" value="Send message">
+            <input class="send-button" type="submit" value="Send message" (click)="onSubmit(contactForm)">
             @if (!message.valid && message.touched){
             <span class="warn-msg">Pleace enter a message.. (minimum length 10 characters)</span>
             }

@@ -32,7 +32,7 @@ section {
         left: 458px;
     }
 
-//start Project one section
+    //start Project one section
     .project-one-div {
         width: 1239px;
         height: 460px;
@@ -43,15 +43,16 @@ section {
         top: 3231px;
         left: 99px;
         mix-blend-mode: luminosity;
-        
-            &:hover {
-                .join-img{
-                    opacity: 1;
-                }
-                .join-slider{
-                    animation: join-slide 0.75s ease-in forwards;
-                }
+
+        &:hover {
+            .join-img {
+                opacity: 1;
             }
+
+            .join-slider {
+                animation: join-slide 0.75s ease-in forwards;
+            }
+        }
 
         .project-one-frame {
             width: 620px;
@@ -61,7 +62,7 @@ section {
             top: 50px;
             left: 20px;
             border: 4px solid black;
-            transition: transform  300ms ease-in;
+            transition: transform 300ms ease-in;
 
             .join-slider {
                 width: 479px;
@@ -102,12 +103,12 @@ section {
                     color: $black;
                 }
 
-                .join-btn-div{
+                .join-btn-div {
                     display: flex;
                     flex-direction: row;
                     justify-content: space-around;
 
-                    .live-btn{
+                    .live-btn {
                         position: absolute;
                         left: 250px;
                     }
@@ -161,9 +162,10 @@ section {
         top: 3231px;
         left: 1030px;
     }
-//end project one section
 
-//start project two section
+    //end project one section
+
+    //start project two section
     .project-two-div {
         width: 1239px;
         height: 460px;
@@ -174,12 +176,13 @@ section {
         top: 3761px;
         left: 99px;
         mix-blend-mode: luminosity;
-        
+
         &:hover {
-            .epl-img{
+            .epl-img {
                 opacity: 1;
             }
-            .epl-slider{
+
+            .epl-slider {
                 animation: epl-slide 0.75s ease-in forwards;
             }
         }
@@ -192,7 +195,7 @@ section {
             top: 50px;
             left: 600px;
             border: 4px solid black;
-            transition: transform  300ms ease-in;
+            transition: transform 300ms ease-in;
 
             .epl-slider {
                 width: 479px;
@@ -216,7 +219,7 @@ section {
                     font-size: 45px;
                     font-weight: 800;
                     color: $black;
-                    
+
                 }
 
                 .epl-skills {
@@ -233,12 +236,12 @@ section {
                     color: $black;
                 }
 
-                .epl-btn-div{
+                .epl-btn-div {
                     display: flex;
                     flex-direction: row;
                     justify-content: space-around;
 
-                    .live-btn{
+                    .live-btn {
                         position: absolute;
                         left: 250px;
                     }
@@ -292,76 +295,9 @@ section {
         top: 3761px;
         left: 102px;
     }
-//end project two section
-
-    .project-three-div {
-        width: 1239px;
-        height: 460px;
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        position: absolute;
-        top: 4291px;
-        left: 99px;
-        mix-blend-mode: luminosity;
-
-        >.project-three-frame {
-            width: 620px;
-            height: 383px;
-            opacity: 0;
-            position: absolute;
-            top: 50px;
-            left: 20px;
-            border: 4px solid black;
-
-            &:hover {
-                .round-down {
-                    transform: rotate(360deg);
-                    transition: transform 300ms ease-in-out;
-
-                    img {
-                        content: url('../../assets/icons/round-up.png');
-                    }
-                }
-            }
-        }
-
-        .round-down {
-            position: absolute;
-            top: 167.5px;
-            left: 582px;
-        }
-
-        &:hover {
-            mix-blend-mode: unset;
-
-            .project-three-frame {
-                opacity: 1;
-            }
-        }
-    }
-
-    .pokedex-img {
-        width: 620px;
-        height: 393px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        gap: 10px;
-    }
-
-    .project-three-number-div {
-        display: flex;
-        justify-content: right;
-        width: 311px;
-        height: 84px;
-        font-family: Syne;
-        font-size: clamp(1.4375rem, 1.0263rem + 2.193vw, 3rem);
-        font-weight: 700;
-        position: absolute;
-        top: 4291px;
-        left: 1030px;
-    }
 }
+
+//end project two section
 
 @keyframes epl-slide {
     0% {

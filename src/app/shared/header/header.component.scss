@@ -36,3 +36,12 @@ section {
         }
     }
 }
+
+@media (max-width: 1462px){
+    section{
+        max-width: unset;
+        >div{
+            width: 100vw;
+        }
+    }
+}
