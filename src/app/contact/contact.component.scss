@@ -2,29 +2,30 @@
 @import '../../styles.scss';
 
 section {
-    width: 1440px;
-    position: relative;
+    max-width: 1440px;
     background-color: $bg-color;
 
     .polygon-div {
         width: 100%;
         height: 1100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         background: $black;
         clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
-        position: absolute;
-        top: 4900px;
     }
 }
 
 .contact-headline {
+    width: 100%;
+    margin-left: 104px;
+    margin-top: 150px;
     font-family: Syne;
     font-size: clamp(2.25rem, 1.5592rem + 3.6842vw, 4.875rem);
     font-weight: 800;
     letter-spacing: 1%;
     color: $bg-color;
-    position: absolute;
-    top: 5100px;
-    left: 104px;
     cursor: default;
 
     &:hover {
@@ -33,32 +34,25 @@ section {
 }
 
 .paragraph-one {
+    margin-top: 50px;
     font-family: Overpass;
     font-size: 32px;
     font-weight: 700;
     color: $accent-green;
-    position: absolute;
-    top: 5250px;
-    left: 484px;
 }
 
 .paragraph-two {
+    margin-bottom: 50px;
     font-family: Overpass;
     font-size: 22px;
     font-weight: 400;
     color: $bg-color;
-    position: absolute;
-    top: 5300px;
-    left: 440px;
 }
 
 .contact-form-div {
     width: 617px;
     height: 490px;
     color: $bg-color;
-    position: absolute;
-    top: 5350px;
-    left: 415px;
 
     .warn-msg {
         font-family: Overpass;
@@ -204,14 +198,18 @@ form {
     gap: 20px;
 }
 
+.arrow-div{
+    width: 1240px;
+    display: flex;
+    justify-content: end;
+}
+
 .arrow-up-footer {
     width: 53.85px;
     height: 76.04px;
-    position: absolute;
-    top: 5770px;
-    left: 1292px;
     transition: 300ms ease-out;
     transform-origin: bottom;
+
 
     &:hover {
         transform: scaleY(1.5);
@@ -222,9 +220,11 @@ form {
 .footer-small-div {
     width: 1240px;
     height: 100px;
-    position: absolute;
-    top: 5895px;
-    left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
 
     .social-icons-div {
         width: 204px;
@@ -233,9 +233,6 @@ form {
         justify-content: space-between;
         flex-direction: row;
         align-items: center;
-        position: absolute;
-        top: 25px;
-        left: 1036px;
 
         .social-icon {
             transition: transform 0.3s ease-out;
@@ -261,43 +258,43 @@ form {
         font-size: 22px;
         font-weight: 400;
         color: $bg-color;
-        position: absolute;
-        top: 75px;
-        left: -4px;
+    }
+}
 
-        .leagl-notice-link{
-            width: 90px;
-            height: 19px;
+.legal-notice-div{
+    width: 1240px;
+    display: flex;
+    justify-content: end;
+
+    .legal-notice-link{
+        width: 90px;
+        height: 32px;
+        font-family: Overpass;
+        font-weight: 400;
+        font-size: 16px;
+        text-decoration: none;
+        color: $bg-color;
+        position: relative;
+        transition: transform 100ms ease-out;
+
+        &::after {
+            content: ''; 
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background-color: $accent-green;
+            transition: width 0.5s ease;
         }
 
-        >a{
-            font-family: Overpass;
-            font-weight: 400;
-            font-size: 16px;
-            text-decoration: none;
-            color: $bg-color;
-            position: relative;
-            transition: transform 100ms ease-out;
+        &:hover {
+            transform: scale(1.025);
 
             &::after {
-                content: ''; 
-                position: absolute;
-                bottom: 1px;
+                width: 50%;
                 left: 50%;
-                width: 0;
-                height: 2px;
-                background-color: $accent-green;
-                transition: width 0.5s ease;
-            }
-
-            &:hover {
-                transform: scale(1.025);
-    
-                &::after {
-                    width: 50%;
-                    left: 50%;
-                }
             }
         }
-}
+    }
 }

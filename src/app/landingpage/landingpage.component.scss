@@ -2,101 +2,104 @@
 @import '../../styles.scss';
 
 section {
-    width: 100vw;
+    width: 100%;
     max-width: 1440px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .landing-title-div {
     width: 1240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: Overpass;
     font-size: clamp(2.25rem, 1.5592rem + 3.6842vw, 4.875rem);
     font-weight: 700;
     letter-spacing: 1%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
-    top: 204px;
-    left: 100px;
+    margin-top: 204px;
 
     >p {
         font-family: Syne;
         color: $black;
         font-size: clamp(2.8125rem, 1.4474rem + 7.2807vw, 8rem);
         font-weight: 800;
-        line-height: 128px;
-        letter-spacing: -0.025em;
         text-align: center;
     }
-}
 
-.line-name-div {
-    width: 1019px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Overpass;
-    font-size: 48px;
-    font-weight: 700;
-    color: $accent-green;
-    position: absolute;
-    top: 472px;
-    left: 211px;
-}
-
-.landing-email-div {
-    height: 27px;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    position: absolute;
-    top: 765px;
-    left: 100px;
-
-    >a {
-        writing-mode: vertical-lr;
-        transform: rotate(180deg);
-        text-decoration: none;
-        color: $black;
-        font-family: Overpass;
-        font-weight: 300;
-        font-size: 22px;
-        line-height: 22px;
-        letter-spacing: -0.025em;
-    }
-}
-
-.landing-arrow-div {
-    width: 116px;
-    gap: 6px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    flex-direction: column;
-    cursor: pointer;
-    position: absolute;
-    top: 533px;
-    left: 1224px;
-
-    >div {
-        width: 116px;
+    .line-name-div {
+        width: 1019px;
+        height: 60px;
         display: flex;
         justify-content: center;
-        overflow: hidden;
-    }
-
-    .arrow {
-        animation: arrow-slide-down 2s infinite;
-    }
-
-    >p {
+        align-items: center;
         font-family: Overpass;
-        font-size: 22px;
-        font-weight: 300;
-        letter-spacing: -0.025em;
+        font-size: 48px;
+        font-weight: 700;
+        color: $accent-green;
     }
+
+    .mail-arrow-div{
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .landing-email-div {
+        height: 27px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        >a {
+            writing-mode: vertical-lr;
+            transform: rotate(180deg);
+            text-decoration: none;
+            color: $black;
+            font-family: Overpass;
+            font-weight: 300;
+            font-size: 22px;
+            line-height: 22px;
+        }
+    }
+    
+    .landing-arrow-div {
+        width: 116px;
+        gap: 6px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+    
+        >div {
+            width: 116px;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+        }
+    
+        .arrow {
+            animation: arrow-slide-down 2s infinite;
+        }
+    
+        >p {
+            font-family: Overpass;
+            font-size: 22px;
+            font-weight: 300;
+            letter-spacing: -0.025em;
+        }
+    }
+}
+
+
 
     @keyframes arrow-slide-down {
         0% {
@@ -113,4 +116,3 @@ section {
             opacity: 1;
         }
     }
-}

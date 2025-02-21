@@ -4,16 +4,15 @@
 section {
     width: 100%;
     max-width: 1440px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     .myprojects-headline {
         font-family: Syne;
         font-size: clamp(2.25rem, 1.5592rem + 3.6842vw, 4.875rem);
         font-weight: 800;
         letter-spacing: 1%;
-        position: absolute;
-        top: 2948px;
-        left: 451px;
         cursor: default;
 
         &:hover {
@@ -29,9 +28,6 @@ section {
         font-family: Overpass;
         font-size: clamp(1.25rem, 1.2171rem + 0.1754vw, 1.375rem);
         font-weight: 400;
-        position: absolute;
-        top: 3061px;
-        left: 458px;
     }
 
     //start Project one section
@@ -39,12 +35,11 @@ section {
         width: 1239px;
         height: 460px;
         display: flex;
-        justify-content: left;
+        justify-content: center;
         align-items: center;
-        position: relative;
-        top: 3231px;
-        left: 99px;
+
         mix-blend-mode: luminosity;
+        border: 1px solid red;
 
         &:hover {
             .join-img {
@@ -59,10 +54,7 @@ section {
         .project-one-frame {
             width: 620px;
             height: 383px;
-            opacity: 0;
-            position: absolute;
-            top: 50px;
-            left: 20px;
+            opacity: 1;
             border: 4px solid black;
             transition: transform 300ms ease-in;
 
@@ -72,9 +64,6 @@ section {
                 gap: 35px;
                 display: flex;
                 align-items: center;
-                position: absolute;
-                top: 40px;
-                left: 110px;
                 opacity: 0;
 
                 .Join-description-div {
@@ -160,9 +149,6 @@ section {
         font-family: Syne;
         font-size: clamp(1.4375rem, 1.0263rem + 2.193vw, 3rem);
         font-weight: 700;
-        position: absolute;
-        top: 3231px;
-        left: 1030px;
     }
 
     //end project one section
@@ -174,9 +160,6 @@ section {
         display: flex;
         justify-content: right;
         align-items: center;
-        position: absolute;
-        top: 3761px;
-        left: 99px;
         mix-blend-mode: luminosity;
 
         &:hover {
@@ -193,9 +176,6 @@ section {
             width: 620px;
             height: 383px;
             opacity: 0;
-            position: absolute;
-            top: 50px;
-            left: 600px;
             border: 4px solid black;
             transition: transform 300ms ease-in;
 
@@ -205,9 +185,6 @@ section {
                 gap: 35px;
                 display: flex;
                 align-items: center;
-                position: absolute;
-                top: 40px;
-                left: 110px;
                 opacity: 0;
 
                 .epl-description-div {
@@ -293,9 +270,6 @@ section {
         font-family: Syne;
         font-size: clamp(1.4375rem, 1.0263rem + 2.193vw, 3rem);
         font-weight: 700;
-        position: absolute;
-        top: 3761px;
-        left: 102px;
     }
 }
 

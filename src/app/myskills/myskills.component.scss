@@ -4,18 +4,15 @@
 section {
     width: 100%;
     max-width: 1440px;
-    position: relative;
 
     .main-frame-div {
         width: 1240px;
         height: 633px;
         border: 4px solid $black;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: absolute;
-        top: 1993px;
-        left: 100px;
 
         .ready-to-learn-div {
             width: 787px;
@@ -28,9 +25,7 @@ section {
             font-family: Overpass;
             font-size: clamp(1.25rem, 1.2171rem + 0.1754vw, 1.375rem);
             font-weight: 400;
-            position: absolute;
-            top: 439px;
-            left: 227px;
+            margin-top: 80px;
 
             >img {
                 transition: transform 0.5s ease-in-out;
@@ -91,9 +86,6 @@ section {
         font-size: clamp(2.25rem, 1.5592rem + 3.6842vw, 4.875rem);
         font-weight: 800;
         letter-spacing: 1%;
-        position: absolute;
-        top: 1939px;
-        left: 440px;
         cursor: default;
 
         &:hover {
@@ -109,9 +101,6 @@ section {
         justify-content: space-between;
         flex-direction: column;
         align-items: center;
-        position: absolute;
-        top: 120px;
-        left: 114px;
 
         .skills-first-row,
         .skills-second-row {
@@ -156,9 +145,6 @@ section {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        position: absolute;
-        top: 2640px;
-        left: 101px;
 
         .arrow-animation-div {
             width: 300px;
