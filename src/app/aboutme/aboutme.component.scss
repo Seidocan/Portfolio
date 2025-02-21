@@ -12,7 +12,7 @@ section {
 
     .main-div {
         width: 1259px;
-        height: 681px;
+        height: 650px;
         display: flex;
         justify-content: space-between;
         flex-direction: row;
@@ -20,6 +20,7 @@ section {
         .content-wrapper-div {
             display: flex;
             flex-direction: column;
+            align-items: center;
             gap: 48px;
 
             .h1-div {
@@ -53,25 +54,9 @@ section {
                 font-size: clamp(1.25rem, 1.2171rem + 0.1754vw, 1.375rem);
                 font-weight: 400;
             }
-        }
 
-        .button {
-            width: 220px;
-            height: 68px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px 60px 20px 60px;
-            gap: 10px;
-            border: 4px solid $black;
-            font-family: Overpass;
-            font-size: clamp(1.25rem, 1.2171rem + 0.1754vw, 1.375rem);
-            font-weight: 400;
-            cursor: pointer;
-            transition: scale 100ms ease-in-out;
-
-            &:hover {
-                transform: scalex(1.1);
+            a {
+                text-decoration: none; 
             }
         }
 
@@ -82,28 +67,26 @@ section {
             top: 80px;
             border: 1px solid $black;
         }
+    }
 
-        .arrow-div {
-            width: 1239px;
+    .arrow-div {
+        width: 1239px;
+        height: 300px;
+        display: flex;
+        justify-content: flex-end;
+
+        .arrow-animation-div {
+            width: 300px;
             height: 300px;
             display: flex;
-            justify-content: flex-end;
+            justify-content: end;
             align-items: flex-start;
+            transition: transform 70ms ease;
+            cursor: pointer;
+        }
 
-            .arrow-animation-div {
-                width: 300px;
-                height: 300px;
-                display: flex;
-                justify-content: end;
-                align-items: flex-start;
-                position: relative;
-                transition: transform 70ms ease;
-                cursor: pointer;
-            }
-
-            .arrow-animation-div.hovered {
-                transform: translate(-80px, 80px);
-            }
+        .arrow-animation-div.hovered {
+            transform: translate(-80px, 80px);
         }
     }
 
