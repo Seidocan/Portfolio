@@ -1,24 +1,37 @@
 <section [class]="mainservice.menuHidden ? 'd-none' : '' ">
-    <div class="polygon-div"></div>
-    
-    <div class="menu-main-div">
-        <div class="link-div">
-            <a href="#aboutme" (click)="closeMenu()">About me</a>
-            <img class="about-corner" src="assets/img/corner.png">
-            <img class="about-stripe" src="assets/img/full_stripe.png">
+
+        <div class="menu-main-div">
+            <div class="link-div">
+                <a href="#aboutme" (click)="closeMenu()">About me</a>
+                <img class="about-corner" src="assets/img/corner.png">
+                <img class="about-stripe" src="assets/img/full_stripe.png">
+            </div>
+
+            <div class="link-div">
+                <a href="#myskills" (click)="closeMenu()">My Skills</a>
+                <img class="skills-corner" src="assets/img/corner.png">
+                <img class="skills-stripe" src="assets/img/full_stripe.png">
+            </div>
+
+            <div class="link-div">
+                <a href="#portfolio" (click)="closeMenu()">Portfolio</a>
+                <img class="portfolio-corner" src="assets/img/corner.png">
+                <img class="portfolio-stripe" src="assets/img/full_stripe.png">
+            </div>
         </div>
 
-        <div class="link-div">
-            <a href="#myskills" (click)="closeMenu()">My Skills</a>
-            <img class="skills-corner" src="assets/img/corner.png">
-            <img class="skills-stripe" src="assets/img/full_stripe.png">
+    <div class="polygon-div">
+        <p class="contact-headline">Say Hi!</p>
+        <div class="footer-small-div">
+            <p class="mail"><a href="#">{{ email }}</a></p>
+            <div class="social-icons-div">
+                <a class="social-icon" target=”_blank” href="https://github.com/Seidocan"><img
+                        src="assets/icons/github_button.png"></a>
+                <a class="social-icon" target=”_blank” href="mailto:marco.marrocu@hotmail.de"><img
+                        src="assets/icons/email_button.png"></a>
+                <a class="social-icon" target=”_blank” href="#"><img src="assets/icons/linkedin_button.png"></a>
+            </div>
         </div>
-
-        <div class="link-div">
-            <a href="#portfolio" (click)="closeMenu()">Portfolio</a>
-            <img class="portfolio-corner" src="assets/img/corner.png">
-            <img class="portfolio-stripe" src="assets/img/full_stripe.png">
-        </div>
-
     </div>
+
 </section>

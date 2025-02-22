@@ -17,4 +17,7 @@ export class MenuComponent {
   closeMenu() {
     this.mainservice.menuHidden = true;
   }
+
+  email = "marco.marrocu@hotmail.de";
+
 }
