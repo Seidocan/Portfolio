@@ -366,24 +366,28 @@ section {
 
 @media (max-width: 1564px) {
     section {
-        width: 1240px;
+        width: 100% !important;
+        max-width: 1240px !important;
     }
 }
 
 @media (max-width: 1461px) {
     section {
-        width: 800px !important;
+        width: 100% !important;
+        max-width: 800px !important;
         height: 1700px !important;
     }
 
     .project-one-div,
     .project-two-div {
-        width: 700px !important;
+        width: 100% !important;
+        max-width: 700px !important;
     }
 
     .project-one-number-div,
     .project-two-number-div {
-        width: 700px !important;
+        width: 100% !important;
+        max-width: 700px !important;
     }
 
     .project-two-number-div{

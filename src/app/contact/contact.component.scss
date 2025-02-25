@@ -302,19 +302,26 @@ form {
 
 @media (max-width: 1564px){
     section{
-        width: 1240px;
+        width: 100% !important;
+        max-width: 1240px !important;
     }
 }
 
 @media (max-width: 1461px){
     section,
     .copyright{
-        width: 800px;
+        width: 100% !important;
+        max-width: 800px !important;
     }
 
     .legal-notice-div,
     .footer-small-div,
     .arrow-div{
-        width: 700px;
+        width: 100% !important;
+        max-width: 700px !important;
+    }
+
+    .contact-headline{
+        width: 700px !important;
     }
 }

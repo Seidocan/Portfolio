@@ -34,12 +34,14 @@ section {
 
 @media (max-width: 1564px) {
     section {
-        width: 1240px;
+        width: 100% !important;
+        max-width: 1240px !important;
     }
 }
 
 @media (max-width: 1461px){
     section{
-        width: 800px;
+        width: 100% !important;
+        max-width: 800px !important;
     }
 }

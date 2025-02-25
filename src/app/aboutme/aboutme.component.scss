@@ -96,21 +96,24 @@ section {
 
 @media (max-width: 1564px){
     section{
-        width: 1240px;
+        width: 100% !important;
+        max-width: 1240px !important;
     }
 }
 
 @media (max-width: 1461px){
     section{
         margin-top: unset;
-        width: 800px !important;
+        width: 100% !important;
+        max-width: 800px !important;
     }
 
     .main-div{
         justify-content: center !important;
         align-items: center !important;
         flex-direction: column !important;
-        width: 800px !important;
+        width: 100% !important;
+        max-width: 800px !important;
         height: 1000px !important;
     }
 
@@ -122,6 +125,7 @@ section {
     }
 
     .arrow-div{
-        width: 800px !important;
+        width: 100% !important;
+        max-width: 800px !important;
     }
 }
