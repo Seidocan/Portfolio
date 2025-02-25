@@ -31,3 +31,15 @@ section {
         font-size: 44px;
     }
 }
+
+@media (max-width: 1564px) {
+    section {
+        width: 1240px;
+    }
+}
+
+@media (max-width: 1461px){
+    section{
+        width: 800px;
+    }
+}

@@ -14,6 +14,7 @@ section {
     z-index: 998;
     background-color: $bg-color;
 
+    border: 1px solid red;
 
     .polygon-div {
         position: absolute;
@@ -49,7 +50,7 @@ section {
             justify-content: space-between;
             align-items: center;
             gap: 48px;
-        
+
             .social-icons-div {
                 width: 204px;
                 height: 40px;
@@ -60,20 +61,20 @@ section {
 
                 .social-icon {
                     transition: transform 0.3s ease-out;
-        
+
                     &:hover {
                         transform: translateY(-10px);
                     }
                 }
             }
-        
+
             .mail {
                 width: 1240px;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
 
-                >a{
+                >a {
                     font-family: Overpass;
                     font-weight: 300;
                     font-size: 23px;
@@ -173,4 +174,32 @@ section {
 
 .d-none {
     display: none;
+}
+
+@media (max-width: 1564px){
+    section{
+        width: 1240px;
+    }
+}
+
+@media (max-width: 1461px){
+    section,
+    .polygon-div,
+    .footer-small-div{
+        width: 800px !important;
+    }
+
+    .footer-small-div,
+    .contact-headline{
+        width: 700px !important;
+    }
+
+    .contact-headline{
+        margin-top: 150px !important;
+    }
+
+    .footer-small-div{
+        height: 50px !important;
+    }
+    
 }

@@ -9,6 +9,9 @@ section {
     justify-content: center;
     align-items: center;
     background-color: $bg-color;
+
+    border: 1px solid red;
+
 }
 
 .landing-title-div {
@@ -43,7 +46,7 @@ section {
         color: $accent-green;
     }
 
-    .mail-arrow-div{
+    .mail-arrow-div {
         margin-top: 100px;
         width: 100%;
         display: flex;
@@ -51,14 +54,14 @@ section {
         justify-content: space-between;
         align-items: center;
     }
-    
+
     .landing-email-div {
         height: 27px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    
+
         >a {
             writing-mode: vertical-lr;
             transform: rotate(180deg);
@@ -70,7 +73,7 @@ section {
             line-height: 22px;
         }
     }
-    
+
     .landing-arrow-div {
         width: 116px;
         gap: 6px;
@@ -79,18 +82,18 @@ section {
         align-items: center;
         flex-direction: column;
         cursor: pointer;
-    
+
         >div {
             width: 116px;
             display: flex;
             justify-content: center;
             overflow: hidden;
         }
-    
+
         .arrow {
             animation: arrow-slide-down 2s infinite;
         }
-    
+
         >p {
             font-family: Overpass;
             font-size: 22px;
@@ -102,18 +105,57 @@ section {
 
 
 
-    @keyframes arrow-slide-down {
-        0% {
-            transform: translateY(-100%);
-            opacity: 0;
-        }
+@keyframes arrow-slide-down {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
 
-        30% {
-            opacity: 1;
-        }
+    30% {
+        opacity: 1;
+    }
 
-        100% {
-            transform: translateY(0);
-            opacity: 1;
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1564px){
+    section{
+        width: 1240px;
+    }
+}
+
+@media (max-width: 1461px){
+    section,
+    .landing-title-div,
+    .line-name-div{
+        width: 800px !important;
+        >p{
+            font-size: 90px;
         }
     }
+
+    .line-name-div{
+        >p{
+            font-size: 23px !important;
+        }
+
+        >img{
+            max-width: 50% !important;
+        }
+    }
+
+    .landing-email-div{
+        >a{
+            font-size: 20px !important;
+        }
+    }
+
+    .landing-arrow-div{
+        >p{
+            font-size: 20px !important;
+        }
+    }
+}
