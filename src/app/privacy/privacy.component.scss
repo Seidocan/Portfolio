@@ -45,3 +45,10 @@ section {
         max-width: 800px !important;
     }
 }
+
+@media (max-width: 810px){
+    section{
+        width: 100% !important;
+        max-width: 300px !important;
+    }
+}

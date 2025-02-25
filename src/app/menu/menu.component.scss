@@ -206,3 +206,27 @@ section {
     }
     
 }
+
+@media (max-width: 810px){
+    section,
+    .polygon-div,
+    .footer-small-div{
+        width: 100% !important;
+        max-width: 320px !important;
+    }
+
+    .footer-small-div,
+    .contact-headline{
+        width: 100% !important;
+        max-width: 300px !important;
+    }
+
+    .contact-headline{
+        margin-top: 150px !important;
+    }
+
+    .footer-small-div{
+        height: 50px !important;
+    }
+    
+}

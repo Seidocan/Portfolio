@@ -49,9 +49,16 @@ section {
     }
 }
 
-@media (max-width: 1461px){
-    section{
+@media (max-width: 1461px) {
+    section {
         width: 100% !important;
         max-width: 800px !important;
+    }
+}
+
+@media (max-width:810px) {
+    section{
+        width: 100% !important;
+        max-width: 320px !important;
     }
 }

@@ -33,7 +33,6 @@ section {
         font-weight: 400;
     }
 
-    //start Project one section
     .project-one-div {
         width: 1239px;
         height: 460px;
@@ -153,9 +152,6 @@ section {
         font-weight: 700;
     }
 
-    //end project one section
-
-    //start project two section
     .project-two-div {
         width: 1239px;
         height: 460px;
@@ -274,8 +270,6 @@ section {
     }
 }
 
-//end project two section
-
 @keyframes epl-slide {
     0% {
         transform: translateX(0px);
@@ -364,6 +358,50 @@ section {
     }
 }
 
+@keyframes epl-slide-small {
+    0% {
+        transform: translateY(0px);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateY(200px);
+        opacity: 0.25;
+    }
+
+    75% {
+        transform: translateY(210px);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateY(220px);
+        opacity: 1;
+    }
+}
+
+@keyframes join-slide-small {
+    0% {
+        transform: translateY(0px);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateY(200px);
+        opacity: 0.25;
+    }
+
+    75% {
+        transform: translateY(210px);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateY(220px);
+        opacity: 1;
+    }
+}
+
 @media (max-width: 1564px) {
     section {
         width: 100% !important;
@@ -390,7 +428,7 @@ section {
         max-width: 700px !important;
     }
 
-    .project-two-number-div{
+    .project-two-number-div {
         margin-top: 200px !important;
     }
 
@@ -400,5 +438,130 @@ section {
 
     .project-two-div:hover .epl-slider {
         animation: epl-slide-down 0.75s ease-in forwards !important;
+    }
+}
+
+@media (max-width: 810px) {
+    section {
+        width: 100% !important;
+        max-width: 320px !important;
+        height: 1400px !important;
+    }
+
+    .myprojects-headline {
+        font-size: 30px !important;
+    }
+
+    .project-one-div,
+    .project-two-div {
+        width: 100% !important;
+        max-width: 300px !important;
+        height: 250px !important;
+    }
+
+    .project-one-number-div,
+    .project-two-number-div {
+        width: 100% !important;
+        max-width: 300px !important;
+    }
+
+    .join-img,
+    .elPoloLoco-img {
+        width: 300px !important;
+        height: 190px !important;
+    }
+
+    .project-one-frame,
+    .project-two-frame {
+        width: 300px !important;
+        height: 190px !important;
+    }
+
+    .myprojects-description {
+        font-size: 23px !important;
+        margin-top: 24px !important;
+    }
+
+    .join-slider,
+    .epl-slider {
+        width: 300px !important;
+        height: 270px !important;
+        gap: 30px !important;
+
+        .Join-description-div,
+        .epl-description-div {
+            margin-left: unset !important;
+            gap: 15px !important;
+        }
+
+        .join-headline,
+        .epl-headline {
+            font-size: 30px !important;
+        }
+
+        .join-skills,
+        .epl-skills {
+            font-size: 20px !important;
+        }
+
+        .join-txt,
+        .epl-txt {
+            font-size: 16px;
+        }
+    }
+
+    .project-one-frame {
+        .round-down {
+            top: 70px !important;
+            left: -20px !important;
+
+            >img {
+                width: 37.5px !important;
+                height: 37.5px !important;
+            }
+        }
+    }
+
+    .project-two-frame {
+        .round-down {
+            top: 70px !important;
+            left: -20px !important;
+
+            >img {
+                width: 37.5px !important;
+                height: 37.5px !important;
+            }
+        }
+    }
+
+    .join-btn-div,
+    .epl-btn-div {
+        flex-direction: column !important;
+        gap: 10px;
+    }
+
+    .join-git-btn,
+    .epl-git-btn,
+    .live-btn {
+        width: 150px !important;
+        height: 25px !important;
+    }
+
+    .project-one-number-div,
+    .project-two-number-div {
+        transform: unset !important;
+        height: unset !important;
+    }
+
+    .project-two-number-div {
+        margin-top: 350px !important;
+    }
+
+    .project-one-div:hover .join-slider {
+        animation: join-slide-small 0.75s ease-in forwards !important;
+    }
+
+    .project-two-div:hover .epl-slider {
+        animation: epl-slide-small 0.75s ease-in forwards !important;
     }
 }

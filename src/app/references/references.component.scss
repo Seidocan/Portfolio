@@ -188,3 +188,32 @@ section {
         justify-content: center;
     }
 }
+
+
+@media (max-width: 810px){
+    section{
+        width: 100% !important;
+        max-width: 320px !important;
+    }
+
+    .references-main-div{
+        width: 100% !important;
+        max-width: 320px !important;
+        height: 1100px !important;
+        flex-direction: column !important;
+    }
+
+    .reference-one-div{
+        margin-top: 25px !important;
+    }
+
+    .arrow-div{
+        width: 100% !important;
+        max-width: 320px !important;
+    }
+
+    .references-headline{
+        display: flex !important;
+        justify-content: center;
+    }
+}

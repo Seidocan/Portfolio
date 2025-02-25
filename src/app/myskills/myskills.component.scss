@@ -215,3 +215,39 @@ section {
         max-width: 800px !important;
     }
 }
+
+@media (max-width: 810px){
+    section{
+        width: 100%;
+        max-width: 320px !important;
+    }
+
+    .main-frame-div{
+        width: 100% !important;
+        max-width: 320px !important;
+    }
+
+    .skills-main-div{
+        width: 100% !important;
+        max-width: 320px !important;
+        gap: 25px !important;
+
+        .skills-first-row,
+        .skills-second-row{
+            width: 100% !important;
+            max-width: 320px !important;
+            gap: 5px !important;
+            justify-content: space-around !important;
+        }
+
+        .ready-to-learn-div{
+            width: 100% !important;
+            max-width: 320px !important;
+        }
+    }
+
+    .arrow-div{
+        width: 100% !important;
+        max-width: 320px !important;
+    }
+}

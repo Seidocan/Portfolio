@@ -325,3 +325,22 @@ form {
         width: 700px !important;
     }
 }
+
+@media (max-width:810px) {
+    section,
+    .copyright{
+        width: 100% !important;
+        max-width: 320px !important;
+    }
+
+    .legal-notice-div,
+    .footer-small-div,
+    .arrow-div{
+        width: 100% !important;
+        max-width: 300px !important;
+    }
+
+    .contact-headline{
+        width: 300px !important;
+    }
+}
