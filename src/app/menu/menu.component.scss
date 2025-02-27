@@ -174,67 +174,69 @@ section {
     display: none;
 }
 
-@media (max-width: 1564px){
-    section{
+@media (max-width: 1564px) {
+    section {
         width: 100% !important;
         max-width: 1240px !important;
     }
 }
 
-@media (max-width: 1461px){
+@media (max-width: 1461px) {
+
     section,
     .polygon-div,
-    .footer-small-div{
+    .footer-small-div {
         width: 100% !important;
         max-width: 800px !important;
     }
 
     .footer-small-div,
-    .contact-headline{
+    .contact-headline {
         width: 100% !important;
         max-width: 700px !important;
     }
 
-    .contact-headline{
+    .contact-headline {
         margin-top: 150px !important;
     }
 
-    .footer-small-div{
+    .footer-small-div {
         height: 50px !important;
     }
-    
+
 }
 
-@media (max-width: 810px){
+@media (max-width: 810px) {
+
     section,
     .polygon-div,
-    .footer-small-div{
+    .footer-small-div {
         width: 100% !important;
         max-width: 310px !important;
     }
 
-    section{
+    section {
         display: flex;
         justify-content: flex-start;
     }
 
-    .polygon-div{
+    .polygon-div {
         clip-path: polygon(0 0, 100% 30%, 100% 100%, 0% 100%) !important;
     }
 
-    .contact-headline{
+    .contact-headline {
         margin-top: 120px !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
     }
 
-    .menu-main-div{
+    .menu-main-div {
         margin-top: 50px !important;
     }
 
     .footer-small-div,
-    .contact-headline{
+    .contact-headline {
         width: 100% !important;
         max-width: 300px !important;
     }
@@ -244,7 +246,7 @@ section {
         gap: 10px !important;
     }
 
-    .mail{
+    .mail {
         width: 100% !important;
         max-width: 300px !important;
         display: flex !important;
@@ -252,7 +254,7 @@ section {
         align-items: center !important;
     }
 
-    .link-div{
+    .link-div {
         width: 100% !important;
         max-width: 277.84px !important;
 
@@ -260,5 +262,5 @@ section {
             font-size: 45px !important;
         }
     }
-    
+
 }

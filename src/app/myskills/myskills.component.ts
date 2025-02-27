@@ -10,6 +10,9 @@ import { Component } from '@angular/core';
 
 export class MyskillsComponent {
 
+  /**
+   * Adds the 'hovered' class to the element with ID 'aboutAnimationDiv' when the mouse hovers over it.
+   */
   onMouseOver() {
     const arrow = document.getElementById('skillsAnimationDiv');
     if (arrow) arrow.classList.add('hovered');

@@ -8,7 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './landingpage.component.scss'
 })
 export class LandingpageComponent {
-
   email = "marco.marrocu@hotmail.de";
-
 }

@@ -246,14 +246,14 @@ section {
         width: 100%px !important;
         max-width: 310px !important;
         margin-bottom: 20px !important;
-    
+
         .arrow-animation-div {
             width: 300px;
             height: 300px;
             display: flex;
             justify-content: flex-start;
         }
-    
+
         .arrow-animation-div.hovered {
             transform: translate(80px, 80px);
         }

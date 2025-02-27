@@ -14,6 +14,9 @@ export class MenuComponent {
 
   burgerToggle = this.mainservice.menuHidden;
 
+  /**
+   * The function hides the menu by setting menuHidden to true in mainservice.
+   */
   closeMenu() {
     this.mainservice.menuHidden = true;
   }

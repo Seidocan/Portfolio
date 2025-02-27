@@ -56,9 +56,9 @@ button {
     background: #00BC8F;
 }
 
-@media (max-width: 1461px){
+@media (max-width: 1461px) {
     ::-webkit-scrollbar {
-        width: 5px;
+        display: none !important;
     }
 
     ::-webkit-scrollbar-thumb {
