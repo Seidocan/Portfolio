@@ -148,6 +148,9 @@ section {
         gap: 4px;
         display: flex;
         align-items: center;
+        font-family: Overpass;
+        font-weight: 400;
+        font-size: 14px;
     }
 
     input[type="checkbox"] {
@@ -423,7 +426,7 @@ form {
         margin-top: 40px !important;
     }
 
-    .warn-msg{
+    .warn-msg {
         font-size: 14px !important;
         text-align: center !important;
     }
