@@ -131,6 +131,12 @@ section {
         }
     }
 
+    .join-btn-div {
+        >a {
+            text-decoration: none;
+        }
+    }
+
     .join-img {
         width: 620px;
         height: 393px;
@@ -245,6 +251,12 @@ section {
             .project-two-frame {
                 opacity: 1;
             }
+        }
+    }
+
+    .epl-btn-div {
+        >a {
+            text-decoration: none;
         }
     }
 
