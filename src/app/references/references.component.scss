@@ -191,12 +191,12 @@ section {
 @media (max-width: 810px){
     section{
         width: 100% !important;
-        max-width: 320px !important;
+        max-width: 310px !important;
     }
 
     .references-main-div{
         width: 100% !important;
-        max-width: 320px !important;
+        max-width: 310px !important;
         height: 1200px !important;
         flex-direction: column !important;
     }
@@ -216,12 +216,14 @@ section {
 
     .arrow-div{
         width: 100% !important;
-        max-width: 320px !important;
+        max-width: 310px !important;
     }
 
     .references-headline{
         display: flex !important;
         font-size: 30px !important;
+        width: 100% !important;
+        max-width: 300px !important;
     }
 
     .references-description {

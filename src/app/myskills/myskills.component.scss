@@ -203,12 +203,12 @@ section {
 @media (max-width: 810px) {
     section {
         width: 100%;
-        max-width: 320px !important;
+        max-width: 310px !important;
     }
 
     .main-frame-div {
         width: 100% !important;
-        max-width: 320px !important;
+        max-width: 310px !important;
         height: auto !important;
     }
 
@@ -219,7 +219,7 @@ section {
 
     .skills-main-div {
         width: 100% !important;
-        max-width: 320px !important;
+        max-width: 310px !important;
         height: auto !important;
         gap: 25px !important;
         margin-top: 20px !important;
@@ -243,7 +243,19 @@ section {
     }
 
     .arrow-div {
-        width: 100% !important;
-        max-width: 290px !important;
+        width: 100%px !important;
+        max-width: 310px !important;
+        margin-bottom: 20px !important;
+    
+        .arrow-animation-div {
+            width: 300px;
+            height: 300px;
+            display: flex;
+            justify-content: flex-start;
+        }
+    
+        .arrow-animation-div.hovered {
+            transform: translate(80px, 80px);
+        }
     }
 }
