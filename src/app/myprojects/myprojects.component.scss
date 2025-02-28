@@ -38,6 +38,7 @@ section {
         justify-content: left;
         align-items: center;
         mix-blend-mode: luminosity;
+        cursor: pointer;
 
         &:hover {
             .join-img {
@@ -58,6 +59,7 @@ section {
             top: 15px;
             transform: translateX(-98%);
             transition: transform 300ms ease-in;
+            cursor: pointer;
 
             .join-slider {
                 width: 600px;
@@ -163,6 +165,7 @@ section {
         justify-content: right;
         align-items: center;
         mix-blend-mode: luminosity;
+        cursor: pointer;
 
         &:hover {
             .epl-img {
@@ -183,6 +186,7 @@ section {
             position: relative;
             top: 15px;
             transform: translateX(98%);
+            cursor: pointer;
 
             .epl-slider {
                 width: 479px;
