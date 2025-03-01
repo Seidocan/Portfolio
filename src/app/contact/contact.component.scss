@@ -331,101 +331,102 @@ form {
     section {
         width: 100% !important;
         max-width: 320px !important;
+        
+
+        .polygon-div {
+            width: 100%;
+            max-width: 320px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .contact-headline {
+                width: 100% !important;
+                max-width: 300px !important;
+                margin-top: 175px;
+                margin-left: 20px !important;
+                font-size: 45px !important;
+            }
+        }
     }
 
-    .polygon-div {
-        width: 100%;
-        max-width: 320px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .arrow-div {
+        display: none !important;
     }
 
-    .contact-headline {
+    .paragraph-one {
+        width: 100% !important;
+        max-width: 310px !important;
+        margin-top: 50px !important;
+        text-align: center !important;
+    }
+
+    .paragraph-two {
+        width: 100% !important;
+        max-width: 310px !important;
+        font-size: 20px !important;
+        text-align: center !important;
+        margin-top: 20px !important;
+    }
+
+    .contact-form-div {
+        width: 100% !important;
+        max-width: 320px !important;
+        height: 490px;
+    }
+
+    .name-input,
+    .mail-input,
+    .message-input,
+    .checkbox-div {
         width: 100% !important;
         max-width: 300px !important;
-        margin-top: 175px;
-        margin-left: 20px !important;
-        font-size: 45px !important;
     }
-}
 
-.arrow-div {
-    display: none !important;
-}
+    .checkbox-div {
+        font-size: 14px !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
 
-.paragraph-one {
-    width: 100% !important;
-    max-width: 310px !important;
-    margin-top: 50px !important;
-    text-align: center !important;
-}
+    .footer-small-div {
+        width: 100% !important;
+        max-width: 300px !important;
+        height: 350px !important;
+        flex-direction: column !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 30px !important;
+    }
 
-.paragraph-two {
-    width: 100% !important;
-    max-width: 310px !important;
-    font-size: 20px !important;
-    text-align: center !important;
-    margin-top: 20px !important;
-}
+    .copyright {
+        width: 100% !important;
+        max-width: 300px !important;
+        justify-content: center !important;
+    }
 
-.contact-form-div {
-    width: 100% !important;
-    max-width: 320px !important;
-    height: 490px;
-}
+    .legal-notice-div {
+        width: 100% !important;
+        max-width: 300px !important;
+        justify-content: center !important;
+        margin-top: 10px !important;
+    }
 
-.name-input,
-.mail-input,
-.message-input,
-.checkbox-div {
-    width: 100% !important;
-    max-width: 300px !important;
-}
+    .send-button {
+        width: 100% !important;
+        max-width: 201px !important;
+        padding: 20px 20px 20px 20px !important;
+        margin-top: 20px !important;
+    }
 
-.checkbox-div {
-    font-size: 14px !important;
-    display: flex !important;
-    justify-content: center !important;
-}
+    .mylogo {
+        padding-bottom: unset !important;
+        margin-top: 40px !important;
+    }
 
-.footer-small-div {
-    width: 100% !important;
-    max-width: 300px !important;
-    height: 350px !important;
-    flex-direction: column !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    gap: 30px !important;
-}
-
-.copyright {
-    width: 100% !important;
-    max-width: 300px !important;
-    justify-content: center !important;
-}
-
-.legal-notice-div {
-    width: 100% !important;
-    max-width: 300px !important;
-    justify-content: center !important;
-    margin-top: 10px !important;
-}
-
-.send-button {
-    width: 100% !important;
-    max-width: 201px !important;
-    padding: 20px 20px 20px 20px !important;
-    margin-top: 20px !important;
-}
-
-.mylogo {
-    padding-bottom: unset !important;
-    margin-top: 40px !important;
-}
-
-.warn-msg {
-    font-size: 14px !important;
-    text-align: center !important;
+    .warn-msg {
+        font-size: 14px !important;
+        text-align: center !important;
+    }
 }
