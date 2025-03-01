@@ -8,6 +8,7 @@ export class MenuFunctionService {
   constructor() { }
 
   menuHidden = true;
+  currentIcon = '../../../assets/icons/burger_menu.png';
 
 /**
  * The function toggles the visibility of the menu by switching the menuHidden state between true and false.

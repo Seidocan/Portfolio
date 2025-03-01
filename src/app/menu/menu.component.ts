@@ -19,6 +19,7 @@ export class MenuComponent {
    */
   closeMenu() {
     this.mainservice.menuHidden = true;
+    this.mainservice.currentIcon = '../../../assets/icons/burger_menu.png';
   }
 
   email = "marco.marrocu@hotmail.de";
