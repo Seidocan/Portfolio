@@ -13,141 +13,141 @@ section {
     align-items: center;
     z-index: 998;
     background-color: $bg-color;
+}
 
-    .polygon-div {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        bottom: 0;
-        width: 1440px;
-        height: 300px;
-        background-color: $black;
-        clip-path: polygon(0 0, 100% 70%, 100% 100%, 0% 100%);
+.polygon-div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    width: 1440px;
+    height: 300px;
+    background-color: $black;
+    clip-path: polygon(0 0, 100% 70%, 100% 100%, 0% 100%);
+}
 
-        .contact-headline {
-            width: 1240px;
-            margin-top: 100px;
-            font-family: Syne;
-            font-size: clamp(2.25rem, 1.5592rem + 3.6842vw, 4.875rem);
-            font-weight: 800;
-            letter-spacing: 1%;
-            color: $bg-color;
-            cursor: default;
+.contact-headline {
+    width: 1240px;
+    margin-top: 100px;
+    font-family: Syne;
+    font-size: clamp(2.25rem, 1.5592rem + 3.6842vw, 4.875rem);
+    font-weight: 800;
+    letter-spacing: 1%;
+    color: $bg-color;
+    cursor: default;
 
-            &:hover {
-                color: $accent-green;
-            }
-        }
-
-        .footer-small-div {
-            width: 1240px;
-            height: 100px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            gap: 48px;
-
-            .social-icons-div {
-                width: 204px;
-                height: 40px;
-                display: flex;
-                justify-content: space-between;
-                flex-direction: row;
-                align-items: center;
-
-                .social-icon {
-                    transition: transform 0.3s ease-out;
-
-                    &:hover {
-                        transform: translateY(-10px);
-                    }
-                }
-            }
-
-            .mail {
-                width: 1240px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-
-                >a {
-                    font-family: Overpass;
-                    font-weight: 300;
-                    font-size: 23px;
-                    letter-spacing: -2.5%;
-                    color: $bg-color;
-                    text-decoration: none;
-                }
-            }
-        }
+    &:hover {
+        color: $accent-green;
     }
+}
 
-    .menu-main-div {
-        width: 100%;
-        height: 579px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 39px;
+.footer-small-div {
+    width: 1240px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+}
 
-        .link-div {
-            width: 580px;
-            height: 125px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            cursor: pointer;
+.social-icons-div {
+    width: 204px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
 
-            &:hover {
+    .social-icon {
+        transition: transform 0.3s ease-out;
 
-                .about-corner,
-                .skills-corner,
-                .portfolio-corner {
-                    animation: fadeOutCorner 100ms ease-in-out forwards;
-                }
-
-                .about-stripe,
-                .skills-stripe,
-                .portfolio-stripe {
-                    opacity: 1;
-                    animation: slideStripe 100ms ease-out forwards;
-                }
-            }
-
-            >a {
-                text-decoration: none;
-                font-family: Syne;
-                font-weight: 700;
-                font-size: 96px;
-                letter-spacing: 1%;
-                color: $black;
-            }
-
-            .about-corner,
-            .skills-corner,
-            .portfolio-corner {
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                opacity: 1;
-                transition: opacity 300ms ease-in-out;
-            }
-
-            .about-stripe,
-            .skills-stripe,
-            .portfolio-stripe {
-                position: absolute;
-                bottom: 0;
-                opacity: 0;
-            }
+        &:hover {
+            transform: translateY(-10px);
         }
     }
 }
+
+.mail {
+    width: 1240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    >a {
+        font-family: Overpass;
+        font-weight: 300;
+        font-size: 23px;
+        letter-spacing: -2.5%;
+        color: $bg-color;
+        text-decoration: none;
+    }
+}
+
+.menu-main-div {
+    width: 100%;
+    height: 579px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+}
+
+.link-div {
+    width: 580px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+
+        .about-corner,
+        .skills-corner,
+        .portfolio-corner {
+            animation: fadeOutCorner 100ms ease-in-out forwards;
+        }
+
+        .about-stripe,
+        .skills-stripe,
+        .portfolio-stripe {
+            opacity: 1;
+            animation: slideStripe 100ms ease-out forwards;
+        }
+    }
+
+    >a {
+        text-decoration: none;
+        font-family: Syne;
+        font-weight: 700;
+        font-size: 96px;
+        letter-spacing: 1%;
+        color: $black;
+    }
+}
+
+    .about-corner,
+    .skills-corner,
+    .portfolio-corner {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        opacity: 1;
+        transition: opacity 300ms ease-in-out;
+    }
+
+    .about-stripe,
+    .skills-stripe,
+    .portfolio-stripe {
+        position: absolute;
+        bottom: 0;
+        opacity: 0;
+    }
 
 @keyframes slideStripe {
     0% {
@@ -263,5 +263,4 @@ section {
             font-size: 45px !important;
         }
     }
-
 }

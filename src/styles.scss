@@ -66,3 +66,91 @@ button {
         border-radius: 5px;
     }
 }
+
+@keyframes epl-slide {
+    0% {
+        transform: translateX(0px);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateX(-600px);
+        opacity: 0.25;
+    }
+
+    75% {
+        transform: translateX(-610px);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateX(-620px);
+        opacity: 1;
+    }
+}
+
+@keyframes join-slide {
+    0% {
+        transform: translateX(0px);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateX(600px);
+        opacity: 0.25;
+    }
+
+    75% {
+        transform: translateX(610px);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateX(620px);
+        opacity: 1;
+    }
+}
+
+@keyframes epl-slide-down {
+    0% {
+        transform: translateY(0px);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateY(310px);
+        opacity: 0.25;
+    }
+
+    75% {
+        transform: translateY(320px);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateY(330px);
+        opacity: 1;
+    }
+}
+
+@keyframes join-slide-down {
+    0% {
+        transform: translateY(0px);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateY(310px);
+        opacity: 0.25;
+    }
+
+    75% {
+        transform: translateY(320px);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateY(330px);
+        opacity: 1;
+    }
+}

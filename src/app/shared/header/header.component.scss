@@ -20,23 +20,23 @@ section {
         height: 92px;
         padding: 30px 100px 30px 100px;
         gap: 10px;
+    }
 
-        .burger-menu-icon {
-            cursor: pointer;
-            width: 40px;
-            height: 32px;
-            transition: transform 0.2s ease, opacity 0.2s ease;
+    .burger-menu-icon {
+        cursor: pointer;
+        width: 40px;
+        height: 32px;
+        transition: transform 0.2s ease, opacity 0.2s ease;
 
-            &:active {
-                transform: scale(0.9);
-            }
+        &:active {
+            transform: scale(0.9);
         }
+    }
 
-        .my-logo {
-            cursor: pointer;
-            width: 70px;
-            height: 70px;
-        }
+    .my-logo {
+        cursor: pointer;
+        width: 70px;
+        height: 70px;
     }
 }
 

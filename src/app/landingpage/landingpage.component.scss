@@ -87,6 +87,7 @@ section {
             justify-content: center;
             overflow: hidden;
         }
+    }
 
         .arrow {
             animation: arrow-slide-down 2s infinite;
@@ -99,7 +100,6 @@ section {
             letter-spacing: -0.025em;
         }
     }
-}
 
 @keyframes arrow-slide-down {
     0% {
