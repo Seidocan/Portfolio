@@ -18,16 +18,9 @@ export class HeaderComponent {
 
   toggleMenu() {
     this.mainservice.toggleMenu();
-    this.menuStatus = !this.menuStatus;
-
-    if (this.menuStatus) {
-      this.mainservice.currentIcon = '../../../assets/icons/menuX.png';
-    } else {
-      this.mainservice.currentIcon = '../../../assets/icons/burger_menu.png';
-    }
   }
 
   closeMenu() {
-    this.mainservice.currentIcon = '../../../assets/icons/burger_menu.png';
+    this.mainservice.closeMenu();
   }
   }

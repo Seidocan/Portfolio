@@ -18,8 +18,7 @@ export class MenuComponent {
    * The function hides the menu by setting menuHidden to true in mainservice.
    */
   closeMenu() {
-    this.mainservice.menuHidden = true;
-    this.mainservice.currentIcon = '../../../assets/icons/burger_menu.png';
+    this.mainservice.closeMenu();
   }
 
   email = "marco.marrocu@hotmail.de";

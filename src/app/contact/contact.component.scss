@@ -50,15 +50,14 @@ section {
 
 .contact-form-div {
     width: 617px;
-    height: 490px;
     color: $bg-color;
 }
 
-.warn-msg {
+.message-alert {
     font-family: Overpass;
-    font-size: 22px;
+    font-size: 12px;
     font-weight: 400;
-    color: $accent-green;
+    color: $alert-red;
 }
 
 input::placeholder {
@@ -90,7 +89,7 @@ textarea:focus {
     border-top: 0;
     border: unset;
     border-bottom: 2px solid $bg-color;
-    padding: 15px 25px 15px 25px;
+    padding-left: 5px;
     gap: 10px;
     font-family: Overpass;
     font-size: 16px;
@@ -109,7 +108,7 @@ textarea:focus {
     background-color: $black;
     border: unset;
     border-bottom: 2px solid $bg-color;
-    padding: 15px 25px 15px 25px;
+    padding-left: 5px;
     gap: 10px;
     font-family: Overpass;
     font-size: 16px;
@@ -129,7 +128,7 @@ textarea:focus {
     background-color: $black;
     border: unset;
     border-bottom: 2px solid $bg-color;
-    padding: 15px 25px 15px 25px;
+    padding-left: 5px;
     gap: 10px;
     font-family: Overpass;
     font-size: 16px;
@@ -174,6 +173,17 @@ input[type="checkbox"]:checked {
     font-weight: 400;
     color: $accent-green;
     text-decoration: none;
+}
+
+.status-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.status-icon {
+    position: absolute;
+    right: 10px;
 }
 
 .send-button {
@@ -331,7 +341,7 @@ form {
     section {
         width: 100% !important;
         max-width: 320px !important;
-        
+
 
         .polygon-div {
             width: 100%;
@@ -380,24 +390,31 @@ form {
     .message-input,
     .checkbox-div {
         width: 100% !important;
-        max-width: 300px !important;
+        max-width: 310px !important;
     }
 
     .checkbox-div {
         font-size: 14px !important;
-        display: flex !important;
-        justify-content: center !important;
+        height: auto !important;
+        padding: 5px !important;
+
+    }
+
+    .checkbox{
+        width: 30px !important;
+        height: 20px !important;
     }
 
     .footer-small-div {
         width: 100% !important;
         max-width: 300px !important;
-        height: 350px !important;
+        height: auto !important;
         flex-direction: column !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
         gap: 30px !important;
+        margin-top: 150px !important;
     }
 
     .copyright {
@@ -421,11 +438,10 @@ form {
     }
 
     .mylogo {
-        padding-bottom: unset !important;
         margin-top: 40px !important;
     }
 
-    .warn-msg {
+    .message-alert {
         font-size: 14px !important;
         text-align: center !important;
     }
