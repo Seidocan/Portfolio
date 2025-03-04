@@ -35,10 +35,18 @@ export class ContactComponent {
   };
 
   onSubmit(ngForm: NgForm) {
+    if (!this.contactData.privacy) {
+      ngForm.controls['privacy'].markAsTouched();
+    }
     if (ngForm.submitted && ngForm.form.valid && this.contactData.privacy && !this.mailTest) {
       this.http.post(this.post.endPoint, this.post.body(this.contactData))
         .subscribe({
           next: (response) => {
+
+            const dialog = document.getElementById('successDialog');
+            if (dialog) {
+              dialog.style.display = 'flex';
+            }
 
             ngForm.resetForm();
           },
@@ -48,8 +56,23 @@ export class ContactComponent {
           complete: () => console.info('send post complete'),
         });
     } else if (ngForm.submitted && ngForm.form.valid && this.mailTest) {
-      console.log('Die Form funktioniert');
       ngForm.resetForm();
     }
+  }
+
+  closeDialog() {
+    const dialog = document.getElementById('successDialog');
+    if (dialog) {
+      dialog.style.display = 'none';
+    }
+  }
+
+  isAllValid() {
+    return (
+      this.contactData.name &&
+      this.contactData.email &&
+      this.contactData.message?.length >= 10 &&
+      this.contactData.privacy
+    );
   }
 }

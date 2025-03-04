@@ -76,6 +76,7 @@ a {
     height: 300px;
     display: flex;
     justify-content: flex-end;
+    cursor: default;
 }
 
 .arrow-animation-div {
@@ -85,7 +86,7 @@ a {
     justify-content: end;
     align-items: flex-start;
     transition: transform 70ms ease;
-    cursor: pointer;
+    cursor: default;
 }
 
 .arrow-animation-div.hovered {

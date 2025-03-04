@@ -8,6 +8,7 @@ section {
     max-width: 1440px;
     height: 100vh;
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
     z-index: 998;
     background-color: $bg-color;
@@ -89,8 +90,9 @@ section {
 .menu-main-div {
     position: relative;
     width: 100%;
+    height: auto;
     display: flex;
-    top: 150px;
+    top: 50px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -134,23 +136,23 @@ section {
     }
 }
 
-    .about-corner,
-    .skills-corner,
-    .portfolio-corner {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        opacity: 1;
-        transition: opacity 300ms ease-in-out;
-    }
+.about-corner,
+.skills-corner,
+.portfolio-corner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    transition: opacity 300ms ease-in-out;
+}
 
-    .about-stripe,
-    .skills-stripe,
-    .portfolio-stripe {
-        position: absolute;
-        bottom: 0;
-        opacity: 0;
-    }
+.about-stripe,
+.skills-stripe,
+.portfolio-stripe {
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+}
 
 @keyframes slideStripe {
     0% {
@@ -225,18 +227,22 @@ section {
     }
 
     .polygon-div {
-        clip-path: polygon(0 0, 100% 30%, 100% 100%, 0% 100%) !important;
+        height: 300px !important;
+        clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%) !important;
     }
 
     .contact-headline {
-        margin-top: 120px !important;
+        position: relative;
+        bottom: 130px !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
     }
 
     .menu-main-div {
-        margin-top: 50px !important;
+        position: relative !important;
+        top: 0px !important;
+        gap: unset !important;
     }
 
     .footer-small-div,
@@ -259,6 +265,7 @@ section {
     }
 
     .link-div {
+        height: 100px !important;
         width: 100% !important;
         max-width: 277.84px !important;
 

@@ -146,6 +146,7 @@ section {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    cursor: default;
 }
 
 .arrow-animation-div {
@@ -156,7 +157,7 @@ section {
     align-items: flex-start;
     position: relative;
     transition: transform 70ms ease;
-    cursor: pointer;
+    cursor: default;
 }
 
 .arrow-animation-div.hovered {

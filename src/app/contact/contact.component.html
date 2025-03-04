@@ -1,8 +1,15 @@
+<div id="successDialog" class="dialog-overlay" style="display: none;">
+    <div class="dialog-box">
+      <p>Ihre E-Mail wurde versendet!</p>
+      <button class="dialog-close" (click)="closeDialog()">Schließen</button>
+    </div>
+  </div>
+
 <section>
     <div class="polygon-div" id="contact">
-        <p class="contact-headline">Say Hi!</p>
-        <p class="paragraph-one">Want to discuss a new Project?</p>
-        <p class="paragraph-two">Say hello! Let´s discuss youre ideas and make it happen</p>
+        <p class="contact-headline">Kontakt</p>
+        <p class="paragraph-one">Lass uns reden!</p>
+        <p class="paragraph-two">Über dieses Formular können sie mit mir in Kontakt treten.</p>
 
         <div class="contact-form-div">
 
@@ -20,7 +27,7 @@
                 </div>
 
                 @if (!name.valid && name.touched){
-                <span class="message-alert">Pleace enter a Name..</span>
+                <span class="message-alert">Bitte Namen eingeben.</span>
                 }
 
                 <div class="status-wrapper">
@@ -36,7 +43,7 @@
                 </div>
 
                 @if (!email.valid && email.touched){
-                    <span class="message-alert">Pleace enter a valid E-Mail Adress (example&#64;mail.de)</span>
+                    <span class="message-alert">Bitte eine Gültige E-Mail Adresse angeben (Beispiel&#64;mail.de)</span>
                     }
 
                 <div class="status-wrapper">
@@ -51,17 +58,22 @@
                 </div>
 
                 @if (!message.valid && message.touched){
-                <span class="message-alert">Pleace enter a message.. (minimum length 10 characters)</span>
+                <span class="message-alert">Bitte eine Nachricht eingeben (Mindestens 10 Buchstaben)</span>
                 }
 
                 <div class="checkbox-div">
                     <input #privacy="ngModel" [(ngModel)]="contactData.privacy" class="checkbox" type="checkbox"
                         name="privacy" id="checkbox" required>
-                    <p>Iv'e read the <a class="privacy-link" href="privacy">privacy policy</a> and agree to the
-                        processing of my data as outlined.</p>
+                    <div class="checkbox-text">
+                        <p>Ich stimme der <a class="privacy-link" href="privacy">Datenschutzerklärung</a> zu.</p>
+                
+                @if (!privacy.valid && privacy.touched){
+                <span class="message-alert">Bitte akzeptieren sie die Datenschutzerklärung.</span>
+                }
+                    </div>
                 </div>
-
-                <input class="send-button" type="submit" value="Send message" (click)="onSubmit(contactForm)">
+                
+                <input class="send-button" type="submit" value="Nachricht senden" (click)="onSubmit(contactForm)" [disabled]="!isAllValid()">
 
             </form>
 
@@ -84,7 +96,7 @@
             </div>
         </div>
         <div class="legal-notice-div">
-            <a class="legal-notice-link" href="imprint">Legal notice</a>
+            <a class="legal-notice-link" href="imprint">Impressum</a>
         </div>
     </div>
 </section>
