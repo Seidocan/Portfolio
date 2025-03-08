@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./shared/header/header.component";
 import { MenuComponent } from "./menu/menu.component";
+import { TranslateDirective, TranslateModule, TranslatePipe } from '@ngx-translate/core';
+import { TranslateService } from './services/translate.service';
 
 @Component({
   selector: 'app-root',
@@ -11,11 +13,20 @@ import { MenuComponent } from "./menu/menu.component";
     CommonModule,
     RouterOutlet,
     HeaderComponent,
-    MenuComponent
+    MenuComponent,
+    TranslatePipe,
+    TranslateDirective,
+    TranslateModule
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
+  constructor(private translate: TranslateService) {
+    this.translate.setDefaultLang();
+    this.translate.use('de');
+}
+
   title = 'Portfolio';
+
 }

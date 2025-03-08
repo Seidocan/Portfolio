@@ -2,26 +2,26 @@
 
     <div class="menu-main-div">
         <div class="link-div">
-            <a href="#aboutme" (click)="closeMenu()">Über mich</a>
+            <a href="#aboutme" (click)="closeMenu()">{{ 'menu.aboutme' |translate}}</a>
             <img class="about-corner" src="assets/img/corner.png">
             <img class="about-stripe" src="assets/img/full_stripe.png">
         </div>
 
         <div class="link-div">
-            <a href="#myskills" (click)="closeMenu()">Skills</a>
+            <a href="#myskills" (click)="closeMenu()">{{ 'menu.skills' |translate}}</a>
             <img class="skills-corner" src="assets/img/corner.png">
             <img class="skills-stripe" src="assets/img/full_stripe.png">
         </div>
 
         <div class="link-div">
-            <a href="#portfolio" (click)="closeMenu()">Portfolio</a>
+            <a href="#portfolio" (click)="closeMenu()">{{ 'menu.portfolio' |translate}}</a>
             <img class="portfolio-corner" src="assets/img/corner.png">
             <img class="portfolio-stripe" src="assets/img/full_stripe.png">
         </div>
     </div>
 
     <div class="polygon-div">
-        <p class="contact-headline">Kontakt</p>
+        <p class="contact-headline">{{ 'menu.contact-headline' |translate}}</p>
         <div class="footer-small-div">
             <p class="mail"><a href="#">{{ email }}</a></p>
             <div class="social-icons-div">

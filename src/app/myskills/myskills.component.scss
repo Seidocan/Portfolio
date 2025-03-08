@@ -77,7 +77,6 @@ section {
         padding-right: 10px;
         padding-bottom: 5px;
         padding-left: 10px;
-        display: inline-block;
         position: relative;
         transition: transform 100ms ease-out;
 
@@ -233,14 +232,13 @@ section {
         max-width: 290px !important;
         height: 150px !important;
         display: flex !important;
-        justify-content: center !important;
         align-items: center !important;
         margin-top: unset !important;
         margin-bottom: 20px !important;
 
         .learn-content-div {
             height: 75px !important;
-            font-size: 20px !important;
+            font-size: 16px !important;
         }
     }
 

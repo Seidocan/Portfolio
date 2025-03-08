@@ -1,9 +1,13 @@
 import { Component } from '@angular/core';
+import { TranslateModule, TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-myskills',
   standalone: true,
-  imports: [],
+  imports: [
+    TranslateModule,
+    TranslatePipe
+  ],
   templateUrl: './myskills.component.html',
   styleUrl: './myskills.component.scss'
 })

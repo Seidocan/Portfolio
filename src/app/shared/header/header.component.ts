@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { MenuComponent } from '../../menu/menu.component';
 import { MenuFunctionService } from '../../services/menu-function.service';
+import { TranslateService } from '../../services/translate.service';
 
 @Component({
   selector: 'app-header',
@@ -14,7 +15,7 @@ export class HeaderComponent {
   menuStatus = false;
   currentIcon = '../../../assets/icons/burger_menu.png';
 
-  constructor(public mainservice: MenuFunctionService) { }
+  constructor(public mainservice: MenuFunctionService, private translateService: TranslateService) { }
 
   toggleMenu() {
     this.mainservice.toggleMenu();
@@ -22,5 +23,9 @@ export class HeaderComponent {
 
   closeMenu() {
     this.mainservice.closeMenu();
+  }
+
+  use(lang: string) {
+    this.translateService.use(lang);
   }
   }

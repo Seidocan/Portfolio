@@ -2,8 +2,8 @@
     <div class="header-main-div">
         <a href="#"><img class="my-logo" src="assets/img/mylogo.png"></a>
         <div class="menu-btn-wrapper">
-        <a class="en-btn" href="#">EN</a>
-        <a class="de-btn" href="#">DE</a>
+        <div class="en-btn" (click)="use('en')">EN</div>
+        <div class="de-btn" (click)="use('de')">DE</div>
         <img class="burger-menu-icon" [src]="mainservice.currentIcon" (click)="toggleMenu()">
         </div>
     </div>

@@ -1,0 +1,107 @@
+{
+    "aboutme": {
+        "h1-div": "About Me",
+        "content-div": "I am a passionate frontend developer from Leverkusen, Germany, turning designers' and companies' ideas into functional, appealing digital products. I enjoy working in creative teams that support each other and find new solutions.\nIf you think I would be a good fit for your team and projects, feel free to reach out – I’m excited to connect!",
+        "based-div": "From Leverkusen",
+        "remote-div": "Open to Remote Work",
+        "button": "Let's Talk"
+    },
+
+    "contact": {
+        "h1-div": "Contact",
+        "paragraph-one": "Let's talk!",
+        "paragraph-two": "Use this form to get in touch with me.",
+        "name-input": "Your Name",
+        "mail-input": "Your Email Address",
+        "message-input": "Your Message",
+        "send-button": "Send Message",
+        "message-alert-name": "Please enter your name.",
+        "message-alert-mail": "Please enter a valid email address (example&#64;mail.com)",
+        "message-alert-msg": "Please enter a message (at least 10 characters)",
+        "message-alert-ds": "Please accept the privacy policy.",
+        "checkbox-text": "I agree to the",
+        "checkbox-text-two": ".",
+        "privacy-link": "Privacy Policy",
+        "dialog-box": "Your email has been sent!",
+        "dialog-close": "Close",
+        "footer-small-div": {
+            "copyright": "Marco Marrocu 2025"
+        }
+    },
+
+    "imprint": {
+        "headline": "Imprint",
+        "paragraph-1": "Information according to § 5 DDG",
+        "headfont-one": "Represented by:",
+        "headfont-two": "Contact:",
+        "contact-head": "Contact:",
+        "phone": "Phone: 01573-0879625",
+        "haftungsausschluss-head": "Disclaimer:",
+        "haftung-inhalte-head": "Liability for Content",
+        "haftung-inhalte": "The content of our pages has been created with the utmost care. However, we cannot guarantee the accuracy, completeness, and timeliness of the content. As a service provider, we are responsible for our own content on these pages according to § 7 Abs.1 DDG under general laws. According to §§ 8 to 10 DDG, however, we are not obliged to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity. Obligations to remove or block the use of information under general laws remain unaffected. However, liability in this regard is only possible from the moment of knowledge of a specific legal violation. Upon becoming aware of such legal violations, we will remove this content immediately.",
+        "haftung-links-head": "Liability for Links",
+        "haftung-links": "Our website contains links to external third-party websites, whose content we have no influence over. Therefore, we cannot assume any liability for this external content. The respective provider or operator of the linked pages is always responsible for their content. The linked pages were checked for possible legal violations at the time of linking. No illegal content was detected at the time of linking. However, a permanent content control of the linked pages is unreasonable without concrete evidence of a legal violation. If we become aware of legal violations, we will remove such links immediately.",
+        "urheberrecht-head": "Copyright",
+        "urheberrecht": "The content and works created by the site operators on these pages are subject to German copyright law. The reproduction, editing, distribution, and any kind of use outside the limits of copyright law require the written consent of the respective author or creator. Downloads and copies of this page are only permitted for private, non-commercial use. If the content on this site was not created by the operator, the copyrights of third parties are respected. In particular, third-party content is marked as such. Should you still become aware of a copyright infringement, please inform us accordingly. Upon becoming aware of legal violations, we will remove such content immediately.",
+        "datenschutz-head": "Privacy Policy",
+        "datenschutz": "The use of our website is generally possible without providing personal data. If personal data (such as name, address, or email addresses) is collected on our pages, this is always done on a voluntary basis whenever possible. This data will not be passed on to third parties without your explicit consent. We point out that data transmission over the Internet (e.g., when communicating via email) can have security gaps. Complete protection of data against access by third parties is not possible. The use of contact details published as part of the imprint obligation by third parties for sending unsolicited advertising and information materials is hereby expressly contradicted. The operators of the pages expressly reserve the right to take legal action in the case of unsolicited sending of advertising information, such as spam emails.",
+        "footer": {
+            "created-with": "Created with the",
+            "impressum-generator": "Imprint Generator from WebsiteWissen.com",
+            "website-info-one": "the guide for website creation",
+            "website-info-two": "Website Creation",
+            "homepage-baukasten": "Homepage Builders",
+            "shopsysteme": "Shop Systems",
+            "rechtstext": "Legal Text from"
+        }
+    },
+
+    "landingpage": {
+        "frontend": "Frontend",
+        "developer": "Developer",
+        "name-line": "Marco Marrocu",
+        "email": "Email: ",
+        "scroll-text-one": "Scroll",
+        "scroll-text-two": "Down"
+    },
+
+    "menu": {
+        "aboutme": "About Me",
+        "skills": "Skills",
+        "portfolio": "Portfolio",
+        "contact-headline": "Contact",
+        "email": "Email"
+    },
+
+    "myprojects": {
+        "myprojects-headline": "Portfolio",
+        "myprojects-description-one": "Explore a selection of my work -",
+        "myprojects-description-2": "Interact with the projects to see my skills in action.",
+        "join-skills": "Angular | TypeScript | HTML | CSS | Firebase",
+        "join-txt": "Task manager inspired by the Kanban system. Create and organize tasks with drag-and-drop functionality, assign users and categories.",
+        "join-git-btn": "GitHub",
+        "live-btn": "Live Demo",
+        "epl-headline": "El Pollo Loco",
+        "epl-skills": "JavaScript | HTML | CSS",
+        "epl-txt": "A simple jump-and-run game based on an object-oriented approach. Help Pepe collect coins and salsa bottles to fight the killer chicken."
+    },
+
+    "myskills": {
+        "headline": "My Skills",
+        "learn-message-one": "Don't see the skill you need?",
+        "learn-message-two": "I'm always ready to learn!",
+        "contact-link-text": "Contact me"
+    },
+
+    "references": {
+        "references-headline": "References",
+        "references-description-one": "I love working in a team but also independently.",
+        "references-description-two": "Here’s what my colleagues say about working with me.",
+        "reference-one-name": "A. Argenziano",
+        "reference-one-content": "Marco is an extremely reliable colleague you can always count on. He works well in a team, supports others with his positive attitude, and contributes to success through his creative problem-solving skills.",
+        "reference-two-name": "J. Lenz",
+        "reference-two-content": "Marco was not only highly reliable but also contributed to a pleasant team atmosphere with his positive and motivating nature. His constructive and creative suggestions continuously pushed the project forward.",
+        "reference-three-name": "Vincent G.",
+        "reference-three-content": "Working with Marco is very enjoyable and educational. His ability to analyze, tackle, and solve problems has significantly contributed to our project's progress. His helpfulness ensures that every obstacle finds a solution!"
+    }
+}

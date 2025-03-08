@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
 import { MenuFunctionService } from '../services/menu-function.service';
+import { TranslateModule, TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-menu',
   standalone: true,
-  imports: [],
+  imports: [
+    TranslateModule,
+    TranslatePipe
+  ],
   templateUrl: './menu.component.html',
   styleUrl: './menu.component.scss'
 })

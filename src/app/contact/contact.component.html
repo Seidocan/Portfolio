@@ -1,15 +1,15 @@
 <div id="successDialog" class="dialog-overlay" style="display: none;">
     <div class="dialog-box">
-      <p>Ihre E-Mail wurde versendet!</p>
-      <button class="dialog-close" (click)="closeDialog()">Schließen</button>
+      <p>{{ 'contact.dialog-box' | translate }}</p>
+      <button class="dialog-close" (click)="closeDialog()">{{ 'contact.dialog-close' | translate }}</button>
     </div>
   </div>
 
 <section>
     <div class="polygon-div" id="contact">
-        <p class="contact-headline">Kontakt</p>
-        <p class="paragraph-one">Lass uns reden!</p>
-        <p class="paragraph-two">Über dieses Formular können sie mit mir in Kontakt treten.</p>
+        <p class="contact-headline">{{ 'contact.h1-div' | translate }}</p>
+        <p class="paragraph-one">{{ 'contact.paragraph-one' | translate }}</p>
+        <p class="paragraph-two">{{ 'contact.paragraph-two' | translate }}</p>
 
         <div class="contact-form-div">
 
@@ -21,13 +21,13 @@
                 type="text" 
                 name="name" 
                 class="name-input" 
-                placeholder="Your name" 
+                placeholder="{{ 'contact.name-input' | translate }}" 
                 required>
                 <img *ngIf="name.touched" [src]="name.valid ? 'assets/icons/valid.png' : 'assets/icons/notvalid.png'" class="status-icon">
                 </div>
 
                 @if (!name.valid && name.touched){
-                <span class="message-alert">Bitte Namen eingeben.</span>
+                <span class="message-alert">{{ 'contact.message-alert-name' | translate }}</span>
                 }
 
                 <div class="status-wrapper">
@@ -36,14 +36,14 @@
                 type="text" 
                 name="email" 
                 class="mail-input" 
-                placeholder="Your email"
+                placeholder="{{ 'contact.mail-input' | translate }}"
                 pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"
                 required>
                 <img *ngIf="email.touched" [src]="email.valid ? 'assets/icons/valid.png' : 'assets/icons/notvalid.png'" class="status-icon">
                 </div>
 
                 @if (!email.valid && email.touched){
-                    <span class="message-alert">Bitte eine Gültige E-Mail Adresse angeben (Beispiel&#64;mail.de)</span>
+                    <span class="message-alert">{{ 'contact.message-alert-mail' | translate }}</span>
                     }
 
                 <div class="status-wrapper">
@@ -52,23 +52,23 @@
                 [(ngModel)]="contactData.message" 
                 name="message" 
                 class="message-input" 
-                placeholder="Your message" required>
+                placeholder="{{ 'contact.message-input' | translate }}" required>
                 </textarea>
                 <img *ngIf="message.touched" [src]="message.valid ? 'assets/icons/valid.png' : 'assets/icons/notvalid.png'" class="status-icon">
                 </div>
 
                 @if (!message.valid && message.touched){
-                <span class="message-alert">Bitte eine Nachricht eingeben (Mindestens 10 Buchstaben)</span>
+                <span class="message-alert">{{ 'contact.message-alert-msg' | translate }}</span>
                 }
 
                 <div class="checkbox-div">
                     <input #privacy="ngModel" [(ngModel)]="contactData.privacy" class="checkbox" type="checkbox"
                         name="privacy" id="checkbox" required>
                     <div class="checkbox-text">
-                        <p>Ich stimme der <a class="privacy-link" href="privacy">Datenschutzerklärung</a> zu.</p>
+                        <p>{{ 'contact.checkbox-text' | translate }} <a class="privacy-link" href="privacy">{{ 'contact.privacy-link' | translate }}</a> {{ 'contact.checkbox-text-two' | translate }}</p>
                 
                 @if (!privacy.valid && privacy.touched){
-                <span class="message-alert">Bitte akzeptieren sie die Datenschutzerklärung.</span>
+                <span class="message-alert">{{ 'contact.message-alert-ds' | translate }}</span>
                 }
                     </div>
                 </div>
@@ -86,7 +86,7 @@
             <div>
                 <a href="#"><img class="mylogo" src="assets/img/mylogo_footer.png"></a>
             </div>
-            <p class="copyright">&copy; Marco Marrocu 2025</p>
+            <p class="copyright">&copy; {{ 'contact.cpoyright' | translate }}</p>
             <div class="social-icons-div">
                 <a class="social-icon" target=”_blank” href="https://github.com/Seidocan"><img
                         src="assets/icons/github_button.png"></a>
