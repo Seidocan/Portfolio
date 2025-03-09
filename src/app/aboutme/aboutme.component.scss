@@ -68,7 +68,11 @@ a {
     height: 553px;
     position: relative;
     top: 80px;
-    border: 1px solid $black;
+
+    >img {
+        width: 533px;
+        height: 500px;
+    }
 }
 
 .arrow-div {
@@ -121,6 +125,11 @@ a {
         height: 349px !important;
         align-self: center !important;
         top: 40px !important;
+
+        >img {
+            width: 349px !important;
+            height: 349px !important;
+        }
     }
 
     .arrow-div {
@@ -163,10 +172,15 @@ a {
     }
 
     .image-div {
-        width: 300px !important;
-        height: 300px !important;
+        width: 290px !important;
+        height: 290px !important;
         align-self: center !important;
         top: 40px !important;
+
+        >img{
+            width: 270px !important;
+            height: 270px !important;
+        }
     }
 
     .arrow-div {
