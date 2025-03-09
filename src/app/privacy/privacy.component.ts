@@ -1,10 +1,15 @@
 import { Component } from '@angular/core';
 import { FooterComponent } from "../shared/footer/footer.component";
+import { TranslateModule, TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-privacy',
   standalone: true,
-  imports: [FooterComponent],
+  imports: [
+    FooterComponent,
+    TranslateModule,
+    TranslatePipe
+  ],
   templateUrl: './privacy.component.html',
   styleUrl: './privacy.component.scss'
 })

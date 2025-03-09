@@ -6,7 +6,6 @@
         "remote-div": "Open to Remote Work",
         "button": "Let's Talk"
     },
-
     "contact": {
         "h1-div": "Contact",
         "paragraph-one": "Let's talk!",
@@ -28,7 +27,6 @@
             "copyright": "Marco Marrocu 2025"
         }
     },
-
     "imprint": {
         "headline": "Imprint",
         "paragraph-1": "Information according to § 5 DDG",
@@ -55,7 +53,6 @@
             "rechtstext": "Legal Text from"
         }
     },
-
     "landingpage": {
         "frontend": "Frontend",
         "developer": "Developer",
@@ -64,7 +61,6 @@
         "scroll-text-one": "Scroll",
         "scroll-text-two": "Down"
     },
-
     "menu": {
         "aboutme": "About Me",
         "skills": "Skills",
@@ -72,7 +68,6 @@
         "contact-headline": "Contact",
         "email": "Email"
     },
-
     "myprojects": {
         "myprojects-headline": "Portfolio",
         "myprojects-description-one": "Explore a selection of my work -",
@@ -85,14 +80,12 @@
         "epl-skills": "JavaScript | HTML | CSS",
         "epl-txt": "A simple jump-and-run game based on an object-oriented approach. Help Pepe collect coins and salsa bottles to fight the killer chicken."
     },
-
     "myskills": {
         "headline": "My Skills",
         "learn-message-one": "Don't see the skill you need?",
         "learn-message-two": "I'm always ready to learn!",
         "contact-link-text": "Contact me"
     },
-
     "references": {
         "references-headline": "References",
         "references-description-one": "I love working in a team but also independently.",
@@ -103,5 +96,106 @@
         "reference-two-content": "Marco was not only highly reliable but also contributed to a pleasant team atmosphere with his positive and motivating nature. His constructive and creative suggestions continuously pushed the project forward.",
         "reference-three-name": "Vincent G.",
         "reference-three-content": "Working with Marco is very enjoyable and educational. His ability to analyze, tackle, and solve problems has significantly contributed to our project's progress. His helpfulness ensures that every obstacle finds a solution!"
+    },
+    "privacy": {
+        "headline": "Privacy Policy",
+        "date": "Last updated: March 9, 2025",
+        "inhalt": "Content Overview",
+        "i1": "Controller",
+        "i2": "Overview of Processing",
+        "i3": "Relevant Legal Bases",
+        "i4": "Security Measures",
+        "i5": "Rights of Data Subjects",
+        "i6": "Use of Cookies",
+        "i7": "Contact and Inquiry Management",
+        "i8": "Presence on Social Networks (Social Media)",
+        "i9": "Plugins and Embedded Functions and Content",
+        "verantwortlicher": "Controller",
+        "übersicht": "Overview of Processing",
+        "übersicht-description": "The following overview summarizes the types of processed data, the purposes of their processing, and references the affected individuals.",
+        "arten": "Types of Processed Data",
+        "bestandsdaten": "Inventory Data",
+        "kontaktdaten": "Contact Data",
+        "inhaltsdaten": "Content Data",
+        "nutzungsdaten": "Usage Data",
+        "mkv-daten": "Meta, Communication, and Procedural Data",
+        "kategorie-betroffen": "Categories of Affected Persons",
+        "kommunikationspartner": "Communication Partners",
+        "nutzer": "Users",
+        "zweck-verarbeitung": "Purposes of Processing",
+        "kommunikation": "Communication",
+        "orga-verwa": "Organizational and Administrative Procedures",
+        "feedback": "Feedback",
+        "buoun": "Provision of Our Online Services and User-Friendliness",
+        "öffentlichkeitsarbeit": "Public Relations",
+        "mr-grundlagen": "Relevant Legal Bases",
+        "mr1": "Relevant legal bases under the GDPR: The following provides an overview of the legal bases under the GDPR on which we process personal data. Please note that in addition to the GDPR, national data protection regulations may apply in your or our country of residence. If more specific legal bases are applicable in individual cases, we will inform you about them in this privacy policy.",
+        "mr2": "Consent (Art. 6 Para. 1 S. 1 lit. a) GDPR) - The data subject has given consent to the processing of their personal data for one or more specific purposes.",
+        "mr3": "Contract fulfillment and pre-contractual inquiries (Art. 6 Para. 1 S. 1 lit. b) GDPR) - Processing is necessary for the performance of a contract to which the data subject is a party or to take pre-contractual steps at the request of the data subject.",
+        "mr4": "Legitimate interests (Art. 6 Para. 1 S. 1 lit. f) GDPR) - Processing is necessary for the purposes of the legitimate interests pursued by the controller or a third party, provided that such interests are not overridden by the interests, fundamental rights, and freedoms of the data subject requiring the protection of personal data.",
+        "mr5": "National data protection regulations in Germany: In addition to the GDPR, national regulations on data protection apply in Germany. This includes, in particular, the Federal Data Protection Act (Bundesdatenschutzgesetz – BDSG), which contains special provisions regarding the right of access, the right to erasure, the right to object, the processing of special categories of personal data, processing for other purposes, and transmission as well as automated decision-making in individual cases, including profiling. Furthermore, data protection laws of individual federal states may apply. Notice on GDPR and Swiss Data Protection Act (DSG) applicability: This privacy notice serves to provide information under both the Swiss DSG and the GDPR. Therefore, please note...",
+        "sicherheit": "Security Measures",
+        "sicherheit-txt": "We take appropriate technical and organizational measures in accordance with legal requirements, considering the state of the art, implementation costs, the nature, scope, circumstances, and purposes of processing, as well as the varying likelihood and severity of risks to the rights and freedoms of natural persons, to ensure a level of protection appropriate to the risk. These measures include, in particular, securing the confidentiality, integrity, and availability of data by controlling physical and electronic access to the data, as well as access, input, transfer, availability security, and their separation. Furthermore, we have established procedures to ensure the exercise of data subject rights, the deletion of data, and responses to data threats. We also take into account the protection of personal data when developing or selecting hardware, software, and processes, following the principle of data protection by design and by default. Securing online connections using TLS/SSL encryption technology (HTTPS): To protect user data transmitted via our online services from unauthorized access, we use TLS/SSL encryption technology. Secure Sockets Layer (SSL) and Transport Layer Security (TLS) are the cornerstones of secure data transmission on the internet. These technologies encrypt the information transmitted between the website or app and the user's browser (or between two servers), ensuring that the data is protected from unauthorized access. TLS, as the more advanced and secure version of SSL, guarantees that all data transmissions meet the highest security standards. When a website is secured by an SSL/TLS certificate, this is indicated by the display of HTTPS in the URL, serving as an indicator for users that their data is being securely and encryptedly transmitted.",
+        "rechte-person": "Rights of Data Subjects",
+        "rechte-person-content-one": "Rights of data subjects under the GDPR: As a data subject, you have various rights under the GDPR, which are primarily derived from Articles 15 to 21 GDPR:",
+        "rechte-person-content-two": "Right to object: You have the right to object at any time, on grounds relating to your particular situation, to the processing of your personal data based on Article 6(1)(e) or (f) GDPR, including profiling based on these provisions. If your personal data is processed for direct marketing purposes, you have the right to object at any time to the processing of your personal data for such marketing; this also applies to profiling related to such direct marketing.",
+        "r1": "Right to withdraw consent: You have the right to withdraw consent given at any time.",
+        "r2": "Right of access: You have the right to request confirmation as to whether data concerning you is being processed, and to receive information about this data as well as further details and a copy of the data, in accordance with legal requirements.",
+        "r3": "Right to rectification: You have the right, in accordance with legal requirements, to request the completion of incomplete data concerning you or the correction of incorrect data concerning you.",
+        "r4": "Right to erasure and restriction of processing: In accordance with legal requirements, you have the right to request the immediate deletion of data concerning you, or alternatively, in accordance with legal requirements, to request a restriction of the processing of the data.",
+        "r5": "Right to data portability: You have the right to receive data concerning you that you have provided to us in a structured, commonly used, and machine-readable format, or to request its transmission to another controller, in accordance with legal requirements.",
+        "r6": "Right to lodge a complaint with a supervisory authority: Without prejudice to any other administrative or judicial remedy, you have the right to lodge a complaint with a supervisory authority, particularly in the Member State of your habitual residence, place of work, or the place of the alleged infringement, if you believe that the processing of your personal data violates the GDPR.",
+        "cookies-header": "Use of Cookies",
+        "cookie-1": "The term 'cookies' refers to functions that store and retrieve information on users' devices. Cookies can be used for various purposes, such as ensuring the functionality, security, and convenience of online services, as well as analyzing visitor traffic. We use cookies in accordance with legal regulations. Where required, we obtain users' prior consent. If consent is not necessary, we rely on our legitimate interests. This applies when storing and retrieving information is essential to provide expressly requested content and functions. This includes storing settings and ensuring the functionality and security of our online services. Consent can be withdrawn at any time. We provide clear information on the scope and types of cookies used.",
+        "cookie-2": "Notes on legal bases under data protection law: Whether we process personal data using cookies depends on user consent. If consent is given, it serves as the legal basis. Without consent, we rely on our legitimate interests, as explained in this section and in the context of the respective services and processes.",
+        "cookie-3": "Storage duration: The following types of cookies are distinguished based on their storage duration:",
+        "cookie-4": "Temporary cookies (also known as session cookies): Temporary cookies are deleted at the latest after a user leaves an online service and closes their device (e.g., browser or mobile application).",
+        "cookie-5": "Permanent cookies: Permanent cookies remain stored even after the device is closed. For example, login status can be retained, and preferred content can be displayed immediately when a user revisits a website. Additionally, user data collected via cookies can be used for reach measurement. Unless we provide explicit details on the type and storage duration of cookies (e.g., during consent collection), users should assume that these are permanent and may be stored for up to two years.",
+        "cookie-6": "General information on withdrawal and objection (opt-out): Users can withdraw their given consent at any time and also object to processing in accordance with legal regulations, including through their browser's privacy settings.",
+        "cookie-7": "Processed data types: Meta, communication, and procedural data (e.g., IP addresses, timestamps, identification numbers, involved parties).",
+        "cookie-8": "Affected persons: Users (e.g., website visitors, users of online services).",
+        "cookie-9": "Legal bases: Legitimate interests (Article 6(1)(f) GDPR). Consent (Article 6(1)(a) GDPR).",
+        "cookie-10": "Further information on processing operations, procedures, and services:",
+        "cookie-11": "Processing of cookie data based on consent: We use a consent management solution to obtain users' consent for the use of cookies or the procedures and providers specified in the consent management solution. This process is used to obtain, log, manage, and revoke consent, particularly regarding the use of cookies and similar technologies for storing, retrieving, and processing information on users' devices. As part of this process, users' consent for the use of cookies and related data processing operations, including specific processes and providers mentioned in the consent management system, is obtained. Users also have the option to manage and withdraw their consent. Consent declarations are stored to avoid repeated queries and to provide proof of consent in accordance with legal requirements. Storage occurs server-side and/or in a cookie (so-called opt-in cookie) or through similar technologies to assign consent to a specific user or their device. Unless specific details are provided about consent management service providers, the following general notes apply: The storage duration of consent is up to two years. A pseudonymous user identifier is created, which is stored along with the time of consent, details of the consent scope (e.g., categories of cookies and/or service providers involved), and information about the browser, system, and device used; Legal basis: Consent (Article 6(1)(a) GDPR).",
+        "kontakt-anfarge": "Contact and Inquiry Management",
+        "ka-1": "When contacting us (e.g., by mail, contact form, email, phone, or via social media) and within the scope of existing user and business relationships, the information provided by the inquiring individuals is processed to the extent necessary to respond to inquiries and any requested measures.",
+        "ka-2": "Processed data types: Inventory data (e.g., full name, residential address, contact information, customer number, etc.); Contact data (e.g., postal and email addresses or phone numbers); Content data (e.g., textual or visual messages and contributions, as well as related information such as authorship details or creation timestamps); Usage data (e.g., page views and duration, click paths, usage intensity and frequency, types of devices and operating systems used, interactions with content and functions). Meta, communication, and procedural data (e.g., IP addresses, timestamps, identification numbers, involved parties).",
+        "ka-3": "Affected persons: Communication partners.",
+        "ka-4": "Purposes of processing: Communication; organizational and administrative procedures; feedback (e.g., collecting feedback via online form). Provision of our online services and user-friendliness.",
+        "ka-5": "Retention and deletion: Deletion in accordance with the information provided in the section 'General information on data storage and deletion'.",
+        "ka-6": "Legal bases: Legitimate interests (Article 6(1)(f) GDPR). Contract performance and pre-contractual inquiries (Article 6(1)(b) GDPR).",
+        "ka-7": "Further information on processing operations, procedures, and services:",
+        "ka-8": "Contact form: When contacting us via our contact form, email, or other communication channels, we process the personal data provided to us to respond to and handle the respective request. This typically includes details such as name, contact information, and any additional information necessary for proper handling. We use this data exclusively for the stated purpose of communication and contact; Legal bases: Contract performance and pre-contractual inquiries (Article 6(1)(b) GDPR), Legitimate interests (Article 6(1)(f) GDPR).",
+        "social-headline": "Presence in Social Networks (Social Media)",
+        "sm1": "Processed Data Types: Contact data (e.g., postal and email addresses or phone numbers); Content data (e.g., text or image messages and posts, as well as related information such as authorship details or creation timestamps). Usage data (e.g., page views and duration of stay, click paths, usage intensity and frequency, device types and operating systems used, interactions with content and features).",
+        "sm2": "Affected Persons: Users (e.g., website visitors, users of online services).",
+        "sm3": "Purposes of Processing: Communication; Feedback (e.g., collecting feedback via online forms); Public relations.",
+        "sm4": "Storage and Deletion: Deletion according to the specifications in the section 'General Information on Data Storage and Deletion'.",
+        "sm5": "Legal Basis: Legitimate Interests (Art. 6 para. 1 sentence 1 lit. f) GDPR).",
+        "sm6": "Further Information on Processing Procedures, Methods, and Services:",
+        "sm7": "LinkedIn: Social network - We are jointly responsible with LinkedIn Ireland Unlimited Company for collecting (but not further processing) data from visitors used to create 'Page Insights' (statistics) for our LinkedIn profiles. This data includes information about the types of content users view or interact with, as well as their actions. Additionally, details about the devices used are collected, such as IP addresses, operating systems, browser types, language settings, and cookie data, as well as information from user profiles, such as job function, country, industry, hierarchy level, company size, and employment status. Privacy information regarding LinkedIn's processing of user data can be found in LinkedIn's privacy policy: https://www.linkedin.com/legal/privacy-policy. We have a special agreement with LinkedIn Ireland ('Page Insights Joint Controller Addendum', https://legal.linkedin.com/pages-joint-controller-addendum), which regulates in particular the security measures LinkedIn must observe and LinkedIn's commitment to fulfilling users' rights (i.e., users can, for example, submit requests for information or deletion directly to LinkedIn). Users' rights (especially the right to access, deletion, objection, and complaint to the responsible supervisory authority) are not restricted by our agreement with LinkedIn. The joint responsibility is limited to the collection and transfer of data to LinkedIn Ireland Unlimited Company, a company based in the EU. Further processing of the data is the sole responsibility of LinkedIn Ireland Unlimited Company, particularly regarding the transfer of data to the parent company LinkedIn Corporation in the USA; Service provider: LinkedIn Ireland Unlimited Company, Wilton Place, Dublin 2, Ireland; Legal basis: Legitimate Interests (Art. 6 para. 1 sentence 1 lit. f) GDPR);",
+        "sm9": "Privacy Policy:",
+        "sm13": "Legal Basis.",
+        "sm10": "Third-Country Transfers:",
+        "sm11": "Standard Contractual Clauses",
+        "sm12": "Objection Option",
+        "plugins-headline": "Plug-ins and Embedded Functions and Content",
+        "plug-1": "We integrate functional and content elements into our online offering that are obtained from the servers of their respective providers (hereinafter referred to as 'third-party providers'). These may include graphics, videos, or maps (hereinafter uniformly referred to as 'content'). The integration always requires that the third-party providers of this content process the users' IP addresses, as they could not send the content to their browsers without the IP address. The IP address is thus required for displaying these contents or functions. We strive to use only such content whose respective providers use the IP address solely for content delivery. Third-party providers may also use so-called pixel tags (invisible graphics, also referred to as 'web beacons') for statistical or marketing purposes. The 'pixel tags' can be used to analyze visitor traffic on this website. The pseudonymous information may also be stored in cookies on users' devices and may include, among other things, technical details about the browser and operating system, referring websites, visit time, and other details regarding the use of our online offering. Additionally, such information may be linked to information from other sources.",
+        "plug-2": "Legal Basis Information: If we request users' consent for the use of third-party providers, the legal basis for data processing is permission. Otherwise, user data is processed based on our legitimate interests (i.e., interest in efficient, economical, and user-friendly services). In this context, we also refer to the information on the use of cookies in this privacy policy.",
+        "plug-3": "Processed Data Types: Usage data (e.g., page views and duration of stay, click paths, usage intensity and frequency, device types and operating systems used, interactions with content and features). Meta, communication, and procedural data (e.g., IP addresses, timestamps, identification numbers, involved persons).",
+        "plug-4": "Affected Persons: Users (e.g., website visitors, users of online services).",
+        "plug-5": "Purposes of Processing: Providing our online offering and user-friendliness.",
+        "plug-6": "Storage and Deletion: Deletion according to the specifications in the section 'General Information on Data Storage and Deletion'. Storage of cookies for up to 2 years (Unless otherwise specified, cookies and similar storage methods may be stored on users' devices for up to two years).",
+        "plug-7": "Legal Basis: Consent (Art. 6 para. 1 sentence 1 lit. a) GDPR). Legitimate Interests (Art. 6 para. 1 sentence 1 lit. f) GDPR).",
+        "plug-8": "Further Information on Processing Procedures, Methods, and Services:",
+        "plug-9": "Google Fonts (Self-hosted): Provision of font files for a user-friendly display of our online offering; Service provider: The Google Fonts are hosted on our server, and no data is transmitted to Google; Legal basis: Legitimate Interests (Art. 6 para. 1 sentence 1 lit. f) GDPR).",
+        "plug-10": "Google Fonts (Retrieval from Google Server): Retrieval of fonts (and icons) for the purpose of technically secure, maintenance-free, and efficient use of fonts and icons with regard to up-to-date versions, loading times, uniform display, and consideration of possible licensing restrictions. The provider of the fonts is informed of the user's IP address so that the fonts can be provided in the user's browser. Additionally, technical data (language settings, screen resolution, operating system, and hardware used) is transmitted, which is necessary for providing the fonts depending on the devices used and the technical environment. This data may be processed on a server of the font provider in the USA. When visiting our online offering, users' browsers send their HTTP requests to the Google Fonts Web API (i.e., a software interface for retrieving fonts). The Google Fonts Web API provides users with the Cascading Style Sheets (CSS) of Google Fonts and then the fonts specified in the CSS. These HTTP requests include (1) the IP address used by the respective user to access the internet, (2) the requested URL on the Google server, and (3) the HTTP headers, including the User-Agent, which describes the browser and operating system versions of the website visitors, as well as the referrer URL (i.e., the website where the Google font is to be displayed). IP addresses are neither logged nor stored on Google servers and are not analyzed. The Google Fonts Web API logs details of the HTTP requests (requested URL, User-Agent, and referrer URL). Access to this data is restricted and strictly controlled. The requested URL identifies the font families for which the user wants to load fonts. This data is logged so that Google can determine how often a particular font family is requested. In the Google Fonts Web API, the User-Agent must adjust the font generated for the respective browser type. The User-Agent is primarily logged for debugging purposes and used to generate aggregated usage statistics that measure the popularity of font families. These aggregated usage statistics are published on the 'Analytics' page of Google Fonts. Finally, the referrer URL is logged so that the data can be used for production maintenance and an aggregated report on the top integrations based on the number of font requests can be generated. According to Google, none of the information collected by Google Fonts is used to create profiles of end users or to serve targeted advertisements.",
+        "plug-11": "Website: https://fonts.google.com/",
+        "plug-12": "Privacy Policy: https://policies.google.com/privacy",
+        "plug-13": "Legal Basis for Third-Country Transfers: Data Privacy Framework (DPF), Data Privacy Framework (DPF). More information: https://developers.google.com/fonts/faq/privacy?hl=en",
+        "plug-14": "Created with the free Privacy Policy Generator by Dr. Thomas Schwenke",
+        "plug-15": "Privacy Policy: https://policies.google.com/privacy",
+        "plug-16": "Legal Basis for Third-Country Transfers: Data Privacy Framework (DPF), Data Privacy Framework (DPF). More information: https://developers.google.com/fonts/faq/privacy?hl=en",
+        "plug-17": "Created with the free Privacy Policy Generator by Dr. Thomas Schwenke"
     }
 }
