@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule, RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./shared/header/header.component";
 import { MenuComponent } from "./menu/menu.component";
 import { TranslateDirective, TranslateModule, TranslatePipe } from '@ngx-translate/core';
 import { TranslateService } from './services/translate.service';
+
 
 @Component({
   selector: 'app-root',
@@ -16,15 +17,18 @@ import { TranslateService } from './services/translate.service';
     MenuComponent,
     TranslatePipe,
     TranslateDirective,
-    TranslateModule
+    TranslateModule,
+    RouterModule
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
+
   constructor(private translate: TranslateService) {
-    this.translate.setDefaultLang();
-    this.translate.use('de');
+    const savedLang = localStorage.getItem('language') || 'de';
+    this.translate.use(savedLang);
+    this.translate.setDefaultLang();;
 }
 
   title = 'Portfolio';

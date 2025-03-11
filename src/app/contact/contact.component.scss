@@ -173,6 +173,7 @@ input[type="checkbox"]:checked {
     font-weight: 400;
     color: $accent-green;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .status-wrapper {

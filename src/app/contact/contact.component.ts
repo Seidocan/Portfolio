@@ -3,6 +3,7 @@ import { Component, inject } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { TranslateModule, TranslatePipe } from '@ngx-translate/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-contact',
@@ -11,7 +12,8 @@ import { TranslateModule, TranslatePipe } from '@ngx-translate/core';
     FormsModule, 
     CommonModule,
     TranslatePipe,
-    TranslateModule
+    TranslateModule,
+    RouterModule
   ],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss'
