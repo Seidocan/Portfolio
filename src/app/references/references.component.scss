@@ -162,7 +162,7 @@ section {
     }
 }
 
-@media (max-width: 1461px) {
+@media (max-width: 1270px) {
     section {
         width: 100% !important;
         max-width: 800px !important;
@@ -190,7 +190,59 @@ section {
     }
 }
 
-@media (max-width: 810px) {
+@media (max-width:810px){
+    section {
+        width: 100% !important;
+        max-width: 500px !important;
+        margin-top: 120px !important;
+    }
+
+    .references-main-div {
+        width: 100% !important;
+        max-width: 500px !important;
+        height: 1200px !important;
+        flex-direction: column !important;
+        margin: unset !important;
+    }
+
+    .reference-one-div {
+        margin-top: unset !important;
+    }
+
+    .reference-one-div,
+    .reference-two-div,
+    .reference-three-div {
+        width: 490px !important;
+        height: 600px !important;
+        font-size: 18px !important;
+    }
+
+    .reference-three-div{
+        margin-bottom: 10px !important;
+    }
+
+    .arrow-div {
+        width: 100% !important;
+        max-width: 500px !important;
+    }
+
+    .references-headline {
+        display: flex !important;
+        font-size: 30px !important;
+        width: 100% !important;
+        max-width: 490px !important;
+    }
+
+    .references-description {
+        width: 100% !important;
+        max-width: 490px !important;
+        font-size: 20px !important;
+        margin-top: unset !important;
+        margin-bottom: 125px !important;
+    }
+}
+
+@media (max-width: 510px) {
     section {
         width: 100% !important;
         max-width: 310px !important;

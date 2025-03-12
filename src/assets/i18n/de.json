@@ -25,6 +25,9 @@
     "dialog-close": "Schließen",
     "footer-small-div": {
       "copyright": "Marco Marrocu 2025"
+    },
+    "legal-notice-div": {
+      "legal-notice-link": "Impressum"
     }
   },
   "imprint": {

@@ -291,7 +291,7 @@ section {
     }
 }
 
-@media (max-width: 1461px) {
+@media (max-width: 1270px) {
     section {
         width: 100% !important;
         max-width: 800px !important;
@@ -323,7 +323,112 @@ section {
     }
 }
 
-@media (max-width: 810px) {
+@media (max-width:810px){
+    section {
+        width: 100% !important;
+        max-width: 500px !important;
+        height: 1400px !important;
+    }
+
+    .project-one-div,
+    .project-two-div {
+        width: 100% !important;
+        max-width: 470px !important;
+        height: 250px !important;
+        mix-blend-mode: unset !important;
+    }
+
+    .project-one-number-div,
+    .project-two-number-div {
+        width: 100% !important;
+        max-width: 490px !important;
+    }
+
+    .join-img,
+    .elPoloLoco-img {
+        width: 290px !important;
+        height: 240px !important;
+    }
+
+    .project-one-frame,
+    .project-two-frame {
+        height: 220px !important;
+        width: 290px !important;
+        opacity: 1 !important;
+    }
+
+    .join-slider,
+    .epl-slider {
+        width: 280px !important;
+        height: 270px !important;
+        gap: 30px !important;
+        opacity: 1 !important;
+        transform: translateY(230px) !important;
+        animation: none !important;
+    }
+
+    .Join-description-div,
+    .epl-description-div {
+        margin-left: unset !important;
+        gap: 15px !important;
+    }
+
+    .project-one-frame {
+        .round-down {
+            top: 70px !important;
+            left: -30px !important;
+
+            >img {
+                width: 42px !important;
+                height: 42px !important;
+            }
+        }
+    }
+
+    .project-two-frame {
+        .round-down {
+            top: 70px !important;
+            left: -20px !important;
+
+            >img {
+                width: 42px !important;
+                height: 42px !important;
+            }
+        }
+    }
+
+    .join-btn-div,
+    .epl-btn-div {
+        flex-direction: row !important;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .join-git-btn,
+    .epl-git-btn,
+    .live-btn {
+        width: 150px !important;
+        height: 30px !important;
+        font-size: 16px !important;
+        border: 2px solid $black !important;
+    }
+
+    .project-one-number-div,
+    .project-two-number-div {
+        transform: unset !important;
+        height: unset !important;
+    }
+
+    .project-one-number-div {
+        margin-top: 50px !important;
+    }
+
+    .project-two-number-div {
+        margin-top: 350px !important;
+    }
+}
+
+@media (max-width: 510px) {
     section {
         width: 100% !important;
         max-width: 310px !important;

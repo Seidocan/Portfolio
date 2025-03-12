@@ -18,7 +18,7 @@ section {
 .headline {
     font-family: Syne;
     font-weight: 800;
-    font-size: clamp(2.25rem, 1.5592rem + 3.6842vw, 4.875rem);
+    font-size: 36px;
     letter-spacing: 1%;
     cursor: default;
 
@@ -46,25 +46,34 @@ section {
     }
 }
 
-@media (max-width: 1461px) {
+@media (max-width: 1270px) {
     section {
         width: 100% !important;
         max-width: 800px !important;
     }
 }
 
-@media (max-width: 810px) {
+@media (max-width:810px){
+    section {
+        width: 100% !important;
+        max-width: 490px !important;
+        padding: 0px 0px;
+    }
+}
+
+@media (max-width: 510px) {
     section {
         width: 100% !important;
         max-width: 300px !important;
         padding: 0px 0px;
+        font-size: 14px !important;
     }
 
     .headline {
-        font-size: 30px !important;
+        font-size: 16px !important;
     }
 
     .headfont-big {
-        font-size: 20px;
+        font-size: 16px !important;
     }
 }

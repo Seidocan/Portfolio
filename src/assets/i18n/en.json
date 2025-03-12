@@ -23,8 +23,13 @@
         "privacy-link": "Privacy Policy",
         "dialog-box": "Your email has been sent!",
         "dialog-close": "Close",
+        "legal-notice-link": "Impressum",
         "footer-small-div": {
-            "copyright": "Marco Marrocu 2025"
+            "copyright": "Marco Marrocu 2025",
+            "legal-notice-link": "Impressum"
+        },
+        "legal-notice-div": {
+            "legal-notice-link": "Imprint"
         }
     },
     "imprint": {

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FooterComponent } from "../shared/footer/footer.component";
 import { TranslateModule, TranslatePipe } from '@ngx-translate/core';
 
@@ -14,4 +14,8 @@ import { TranslateModule, TranslatePipe } from '@ngx-translate/core';
   styleUrl: './privacy.component.scss'
 })
 export class PrivacyComponent {
+
+  ngOnInit() {
+    window.scrollTo(0, 0);
+  }
 }

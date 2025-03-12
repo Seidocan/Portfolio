@@ -65,7 +65,7 @@
                     <input #privacy="ngModel" [(ngModel)]="contactData.privacy" class="checkbox" type="checkbox"
                         name="privacy" id="checkbox" required>
                     <div class="checkbox-text">
-                        <p>{{ 'contact.checkbox-text' | translate }} <a class="privacy-link" routerLink="privacy">{{ 'contact.privacy-link' | translate }}</a> {{ 'contact.checkbox-text-two' | translate }}</p>
+                        <p>{{ 'contact.checkbox-text' | translate }} <a class="privacy-link" routerLink="privacy" fragment="top-one">{{ 'contact.privacy-link' | translate }}</a> {{ 'contact.checkbox-text-two' | translate }}</p>
                 
                 @if (!privacy.valid && privacy.touched){
                 <span class="message-alert">{{ 'contact.message-alert-ds' | translate }}</span>
@@ -86,7 +86,7 @@
             <div>
                 <a href="#"><img class="mylogo" src="assets/img/mylogo_footer.png"></a>
             </div>
-            <p class="copyright">&copy; {{ 'contact.cpoyright' | translate }}</p>
+            <p class="copyright">&copy; {{ 'contact.footer-small-div.copyright' | translate }}</p>
             <div class="social-icons-div">
                 <a class="social-icon" target=”_blank” href="https://github.com/Seidocan"><img
                         src="assets/icons/github_button.png"></a>
@@ -96,7 +96,7 @@
             </div>
         </div>
         <div class="legal-notice-div">
-            <a class="legal-notice-link" routerLink="imprint">Impressum</a>
+            <a class="legal-notice-link" routerLink="imprint" fragment="top-two">{{ 'contact.legal-notice-div.legal-notice-link' | translate }}</a>
         </div>
     </div>
 </section>

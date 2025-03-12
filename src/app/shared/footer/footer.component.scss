@@ -77,7 +77,7 @@ section{
     }
 }
 
-@media (max-width: 1461px) {
+@media (max-width: 1270px) {
 
     section,
     .polygon-div,
@@ -102,10 +102,47 @@ section{
     .footer-small-div {
         height: 50px !important;
     }
-
 }
 
-@media (max-width: 810px) {
+@media (max-width:810px){
+    section,
+    .polygon-div,
+    .footer-small-div {
+        width: 100% !important;
+        max-width: 500px !important;
+    }
+
+    .footer-small-div,
+    .logo {
+        width: 100% !important;
+        max-width: 490px !important;
+    }
+
+    .footer-small-div {
+        flex-direction: column !important;
+        gap: 3px !important;
+    }
+
+    .mail {
+        width: 100% !important;
+        max-width: 490px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .link-div {
+        height: 100px !important;
+        width: 100% !important;
+        max-width: 277.84px !important;
+
+        >a {
+            font-size: 45px !important;
+        }
+    }
+}
+
+@media (max-width: 510px) {
 
     section,
     .polygon-div,

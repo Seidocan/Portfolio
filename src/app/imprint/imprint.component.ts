@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FooterComponent } from "../shared/footer/footer.component";
 import { TranslateModule, TranslatePipe } from '@ngx-translate/core';
 
@@ -15,4 +15,8 @@ import { TranslateModule, TranslatePipe } from '@ngx-translate/core';
 })
 export class ImprintComponent {
   email = "marco.marrocu@hotmail.de";
+
+  ngOnInit() {
+    window.scrollTo(0, 0);
+  }
 }

@@ -73,14 +73,27 @@ section {
     }
 }
 
-@media (max-width: 1461px) {
+@media (max-width: 1270px) {
     section {
         width: 100% !important;
         max-width: 800px !important;
     }
 }
 
-@media (max-width:810px) {
+@media (max-width:810px){
+    section {
+        width: 100% !important;
+        max-width: 500px !important;
+
+        >div {
+            width: 100% !important;
+            max-width: 490px !important;
+            padding: unset !important;
+        }
+    }
+}
+
+@media (max-width:510px) {
     section {
         width: 100% !important;
         max-width: 310px !important;

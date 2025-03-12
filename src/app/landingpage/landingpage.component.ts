@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { TranslateModule, TranslatePipe } from '@ngx-translate/core';
 
 @Component({
@@ -13,4 +13,8 @@ import { TranslateModule, TranslatePipe } from '@ngx-translate/core';
 })
 export class LandingpageComponent {
   email = "marco.marrocu@hotmail.de";
+
+  ngOnInit() {
+    window.scrollTo(0, 0);
+  }
 }

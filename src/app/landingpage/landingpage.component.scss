@@ -123,7 +123,7 @@ section {
     }
 }
 
-@media (max-width: 1461px) {
+@media (max-width: 1270px) {
 
     section,
     .landing-title-div,
@@ -159,8 +159,29 @@ section {
     }
 }
 
-@media (max-width:810px) {
+@media (max-width:810px){
+    section,
+    .landing-title-div,
+    .line-name-div {
+        width: 100% !important;
+        max-width: 500px !important;
 
+        >p {
+            font-family: Syne;
+            color: $black;
+            font-size: 46px !important;
+            font-weight: 800;
+            text-align: center;
+        }
+    }
+
+    .line-name-div {
+        font-size: 30px !important;
+
+    }
+}
+
+@media (max-width:510px) {
     section,
     .landing-title-div,
     .line-name-div {
@@ -168,7 +189,7 @@ section {
         max-width: 310px !important;
 
         >p {
-            font-size: 35px;
+            font-size: 35px !important;
         }
     }
 
