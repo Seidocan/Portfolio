@@ -83,10 +83,9 @@ section{
     .polygon-div,
     .footer-small-div {
         width: 100% !important;
-        max-width: 800px !important;
+        max-width: 1200px !important;
     }
 
-    .footer-small-div,
     .contact-headline {
         width: 100% !important;
         max-width: 700px !important;
@@ -104,7 +103,22 @@ section{
     }
 }
 
-@media (max-width:810px){
+@media (max-width: 1045px) {
+
+    section,
+    .polygon-div,
+    .footer-small-div {
+        width: 100% !important;
+        max-width: 810px !important;
+    }
+
+    .contact-headline {
+        width: 100% !important;
+        max-width: 700px !important;
+    }
+}
+
+@media (max-width:820px){
     section,
     .polygon-div,
     .footer-small-div {

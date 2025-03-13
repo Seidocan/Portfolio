@@ -294,20 +294,20 @@ section {
 @media (max-width: 1270px) {
     section {
         width: 100% !important;
-        max-width: 800px !important;
+        max-width: 1200px !important;
         height: 1700px !important;
     }
 
     .project-one-div,
     .project-two-div {
         width: 100% !important;
-        max-width: 700px !important;
+        max-width: 900px !important;
     }
 
     .project-one-number-div,
     .project-two-number-div {
         width: 100% !important;
-        max-width: 700px !important;
+        max-width: 1000px !important;
     }
 
     .project-two-number-div {
@@ -323,7 +323,58 @@ section {
     }
 }
 
-@media (max-width:810px){
+@media (max-width: 1045px) {
+    section {
+        width: 100% !important;
+        max-width: 810px !important;
+        height: 1700px !important;
+    }
+   
+    .project-two-div {
+        width: 100% !important;
+        max-width: 900px !important;
+    }
+
+    .epl-slider {
+        width: 600px !important;
+    }
+
+    .project-one-number-div,
+    .project-two-number-div {
+        width: 100% !important;
+        max-width: 700px !important;
+    }
+
+    .project-one-frame {
+        .round-down {
+            top: 150px !important;
+            left: -25px !important;
+
+            >img {
+                width: 42px !important;
+                height: 42px !important;
+            }
+        }
+    }
+
+    .project-two-frame {
+        .round-down {
+            top: 150px !important;
+            left: -20px !important;
+
+            >img {
+                width: 42px !important;
+                height: 42px !important;
+            }
+        }
+    }
+
+    .project-two-number-div {
+        margin-top: 200px !important;
+    }
+}
+
+@media (max-width:820px){
     section {
         width: 100% !important;
         max-width: 500px !important;

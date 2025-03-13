@@ -129,7 +129,7 @@ section {
     .landing-title-div,
     .line-name-div {
         width: 100% !important;
-        max-width: 800px !important;
+        max-width: 1200px !important;
 
         >p {
             font-size: 90px;
@@ -159,7 +159,17 @@ section {
     }
 }
 
-@media (max-width:810px){
+@media (max-width: 1045px) {
+
+    section,
+    .landing-title-div,
+    .line-name-div {
+        width: 100% !important;
+        max-width: 810px !important;
+    }
+}
+
+@media (max-width:820px){
     section,
     .landing-title-div,
     .line-name-div {

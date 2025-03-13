@@ -168,12 +168,48 @@ section {
         width: 100% !important;
         max-width: 1240px !important;
     }
+    .arrow-div {
+        width: 100% !important;
+        max-width: 1240px !important;
+    }
+
 }
 
 @media (max-width: 1270px) {
     section {
         width: 100%;
-        max-width: 800px !important;
+        max-width: 1200px !important;
+    }
+
+    .main-frame-div {
+        width: 100% !important;
+        max-width: 1000px !important;
+    }
+
+    .skills-main-div {
+        width: 100% !important;
+        max-width: 1000px !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+        .ready-to-learn-div {
+            width: 100% !important;
+            max-width: 900px !important;
+        }
+    }
+
+    .arrow-div {
+        width: 100% !important;
+        max-width: 1100px !important;
+    }
+}
+
+@media (max-width: 1045px) {
+    section {
+        width: 100% !important;
+        max-width: 810px !important;
     }
 
     .main-frame-div {
@@ -191,17 +227,17 @@ section {
 
         .ready-to-learn-div {
             width: 100% !important;
-            max-width: 800px !important;
+            max-width: 700px !important;
         }
     }
 
     .arrow-div {
         width: 100% !important;
-        max-width: 800px !important;
+        max-width: 810px !important;
     }
 }
 
-@media (max-width:810px){
+@media (max-width:820px){
     section {
         width: 100%;
         max-width: 500px !important;

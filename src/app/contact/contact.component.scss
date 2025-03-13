@@ -375,22 +375,42 @@ form {
     section,
     .copyright {
         width: 100% !important;
-        max-width: 800px !important;
+        max-width: 1050px !important;
     }
 
     .legal-notice-div,
     .footer-small-div,
     .arrow-div {
         width: 100% !important;
-        max-width: 700px !important;
+        max-width: 900px !important;
     }
 
     .contact-headline {
-        width: 700px !important;
+        width: 900px !important;
     }
 }
 
-@media (max-width:810px){
+@media (max-width: 1045px) {
+
+    section,
+    .copyright {
+        width: 100% !important;
+        max-width: 810px !important;
+    }
+
+    .legal-notice-div,
+    .footer-small-div,
+    .arrow-div {
+        width: 100% !important;
+        max-width: 750px !important;
+    }
+
+    .contact-headline {
+        width: 750px !important;
+    }
+}
+
+@media (max-width:820px){
     section {
         width: 100% !important;
         max-width: 800px !important;
