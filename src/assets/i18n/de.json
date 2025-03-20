@@ -73,8 +73,8 @@
   },
   "myprojects": {
     "myprojects-headline": "Portfolio",
-    "myprojects-description-one": "Erkunden sie hier eine Auswahl meiner Arbeiten -",
-    "myprojects-description-2": "Interagiere mit den Projekten, um meine Fähigkeiten in Aktion zu sehen.",
+    "myprojects-description-one": "Erkunden Sie hier eine Auswahl meiner Arbeiten -",
+    "myprojects-description-two": "Interagiere mit den Projekten, um meine Fähigkeiten in Aktion zu sehen.",
     "join-skills": "Angular | TypeScript | HTML | CSS | Firebase",
     "join-txt": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben mit Drag-and-Drop-Funktionen, weisen Sie Benutzer und Kategorien zu.",
     "join-git-btn": "GitHub",
